@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="us-ascii"?>
+
+<fileSet version="1" anchorPath="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp" xsi:schemaLocation="http://cypress.com/xsd/cypathdictionary cypathdictionary.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://cypress.com/xsd/cypathdictionary">
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\cyfitter_cfg.h" value="HEADER;;;;;" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\cyfitter_sysint_cfg.h" value="HEADER;;;;;Pins and Interrupts" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\cyfitter_sysint_cfg.c" value="SOURCE_C;CortexM0p,CortexM4;;;;Pins and Interrupts" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\cyfitter_cfg.c" value="SOURCE_C;CortexM0p;;;;" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\cymetadata.c" value="SOURCE_C;CortexM0p,CortexM4;;;;" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\cydevice_trm.h" value="HEADER;;;;;" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\cydevicegnu_trm.inc" value="HEADER;;;;;" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\cydevicerv_trm.inc" value="HEADER;;;;;" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\cydeviceiar_trm.inc" value="HEADER;;;;;" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\cyfitter.h" value="HEADER;;;;;" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\cyfitter_gpio.h" value="HEADER;;;;;Pins and Interrupts" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\cyfitter_sysint.h" value="HEADER;;;;;Pins and Interrupts" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\cydisabledsheets.h" value="HEADER;;;;;" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\SensorBus.c" value="SOURCE_C;CortexM0p,CortexM4;;;;SensorBus" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\SensorBus.h" value="HEADER;;;;;SensorBus" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\UART.c" value="SOURCE_C;CortexM0p,CortexM4;;;;UART" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\UART.h" value="HEADER;;;;;UART" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\BLE.h" value="HEADER;;;;;BLE" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\BLE.c" value="SOURCE_C;CortexM0p,CortexM4;;;;BLE" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\BLE_config.c" value="SOURCE_C;CortexM0p,CortexM4;;;;BLE" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\BLE_config.h" value="HEADER;;;;;BLE" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\BLE_custom_config.c" value="SOURCE_C;CortexM0p,CortexM4;;;;BLE" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\ADC.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADC" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\ADC.h" value="HEADER;;;;;ADC" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\ADC_INT.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADC" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\ADC_INIT.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADC" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\ADC_PM.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADC" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\SensorBus_SCBCLK.h" value="HEADER;;;;;SensorBus_SCBCLK" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\UART_SCBCLK.h" value="HEADER;;;;;UART_SCBCLK" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\ADC_intSarClock.h" value="HEADER;;;;;ADC_intSarClock" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\project.h" value="OTHER;;;;;" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\cycodeshareimport.ld" value="OTHER;;;;;" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\cycodeshareexport.ld" value="OTHER;;;;;" />
+  <file name="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\codegentemp\cycodeshareimport.scat" value="OTHER;;;;;" />
+</fileSet>

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Accel-000\Accel\TopDesign">
+<ExpandedNodeIds>
+<v>Accel-000</v>
+<v>Accel-000\Accel</v>
+<v>Accel-000\Accel\TopDesign</v>
+<v>Accel-000\Accel\Accel.cydwr</v>
+<v>Accel-000\Accel\Accel.cydwr\Pins</v>
+<v>Accel-000\Accel\Accel.cydwr\Analog</v>
+<v>Accel-000\Accel\Accel.cydwr\DMA</v>
+<v>Accel-000\Accel\Accel.cydwr\Clocks</v>
+<v>Accel-000\Accel\Accel.cydwr\Interrupts</v>
+<v>Accel-000\Accel\Accel.cydwr\System</v>
+<v>Accel-000\Accel\Accel.cydwr\Directives</v>
+<v>Accel-000\Accel\CM0p (Core 0)</v>
+<v>Accel-000\Accel\CM0p (Core 0)\ARM GCC Generic</v>
+<v>Accel-000\Accel\CM0p (Core 0)\ARM GCC Generic\cy8c6xx7_cm0plus.ld</v>
+<v>Accel-000\Accel\CM0p (Core 0)\ARM IAR Generic</v>
+<v>Accel-000\Accel\CM0p (Core 0)\ARM IAR Generic\cy8c6xx7_cm0plus.icf</v>
+<v>Accel-000\Accel\CM0p (Core 0)\ARM MDK Generic</v>
+<v>Accel-000\Accel\CM0p (Core 0)\ARM MDK Generic\cy8c6xx7_cm0plus.scat</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Header Files</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Header Files\bmi2.h</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Header Files\bmi2_defs.h</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Header Files\bmi270.h</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files\ARM GCC Generic</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files\ARM GCC Generic\startup_psoc6_01_cm0plus.S</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files\ARM IAR Generic</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files\ARM IAR Generic\startup_psoc6_01_cm0plus.s</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files\ARM MDK Generic</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files\ARM MDK Generic\startup_psoc6_01_cm0plus.s</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files\bmi2.c</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files\bmi270.c</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files\main_cm0p.c</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files\system_psoc6_cm0plus.c</v>
+<v>Accel-000\Accel\CM4 (Core 1)</v>
+<v>Accel-000\Accel\CM4 (Core 1)\ARM GCC Generic</v>
+<v>Accel-000\Accel\CM4 (Core 1)\ARM GCC Generic\cy8c6xx7_cm4_dual.ld</v>
+<v>Accel-000\Accel\CM4 (Core 1)\ARM IAR Generic</v>
+<v>Accel-000\Accel\CM4 (Core 1)\ARM IAR Generic\cy8c6xx7_cm4_dual.icf</v>
+<v>Accel-000\Accel\CM4 (Core 1)\ARM MDK Generic</v>
+<v>Accel-000\Accel\CM4 (Core 1)\ARM MDK Generic\cy8c6xx7_cm4_dual.scat</v>
+<v>Accel-000\Accel\CM4 (Core 1)\Header Files</v>
+<v>Accel-000\Accel\CM4 (Core 1)\Source Files</v>
+<v>Accel-000\Accel\CM4 (Core 1)\Source Files\ARM GCC Generic</v>
+<v>Accel-000\Accel\CM4 (Core 1)\Source Files\ARM GCC Generic\startup_psoc6_01_cm4.S</v>
+<v>Accel-000\Accel\CM4 (Core 1)\Source Files\ARM IAR Generic</v>
+<v>Accel-000\Accel\CM4 (Core 1)\Source Files\ARM IAR Generic\startup_psoc6_01_cm4.s</v>
+<v>Accel-000\Accel\CM4 (Core 1)\Source Files\ARM MDK Generic</v>
+<v>Accel-000\Accel\CM4 (Core 1)\Source Files\ARM MDK Generic\startup_psoc6_01_cm4.s</v>
+<v>Accel-000\Accel\CM4 (Core 1)\Source Files\main_cm4.c</v>
+<v>Accel-000\Accel\CM4 (Core 1)\Source Files\system_psoc6_cm4.c</v>
+<v>Accel-000\Accel\Shared Files</v>
+<v>Accel-000\Accel\Shared Files\cy_ble_config.h</v>
+<v>Accel-000\Accel\Shared Files\cyapicallbacks.h</v>
+<v>Accel-000\Accel\Shared Files\stdio_user.c</v>
+<v>Accel-000\Accel\Shared Files\stdio_user.h</v>
+<v>Accel-000\Accel\Shared Files\system_psoc6.h</v>
+<v>Accel-000\Accel\Generated_Source</v>
+<v>Accel-000\Accel\Generated_Source\PSoC6</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Accel-000</v>
+<v>Accel-000\Accel</v>
+<v>Accel-000\Accel\TopDesign</v>
+<v>Accel-000\Accel\Accel.cydwr</v>
+<v>Accel-000\Accel\Accel.cydwr\Pins</v>
+<v>Accel-000\Accel\Accel.cydwr\Analog</v>
+<v>Accel-000\Accel\Accel.cydwr\DMA</v>
+<v>Accel-000\Accel\Accel.cydwr\Clocks</v>
+<v>Accel-000\Accel\Accel.cydwr\Interrupts</v>
+<v>Accel-000\Accel\Accel.cydwr\System</v>
+<v>Accel-000\Accel\Accel.cydwr\Directives</v>
+<v>Accel-000\Accel\CM0p (Core 0)</v>
+<v>Accel-000\Accel\CM0p (Core 0)\ARM GCC Generic</v>
+<v>Accel-000\Accel\CM0p (Core 0)\ARM GCC Generic\cy8c6xx7_cm0plus.ld</v>
+<v>Accel-000\Accel\CM0p (Core 0)\ARM IAR Generic</v>
+<v>Accel-000\Accel\CM0p (Core 0)\ARM IAR Generic\cy8c6xx7_cm0plus.icf</v>
+<v>Accel-000\Accel\CM0p (Core 0)\ARM MDK Generic</v>
+<v>Accel-000\Accel\CM0p (Core 0)\ARM MDK Generic\cy8c6xx7_cm0plus.scat</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Header Files</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Header Files\bmi2.h</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Header Files\bmi2_defs.h</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Header Files\bmi270.h</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files\ARM GCC Generic</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files\ARM GCC Generic\startup_psoc6_01_cm0plus.S</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files\ARM IAR Generic</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files\ARM IAR Generic\startup_psoc6_01_cm0plus.s</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files\ARM MDK Generic</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files\ARM MDK Generic\startup_psoc6_01_cm0plus.s</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files\bmi2.c</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files\bmi270.c</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files\main_cm0p.c</v>
+<v>Accel-000\Accel\CM0p (Core 0)\Source Files\system_psoc6_cm0plus.c</v>
+<v>Accel-000\Accel\CM4 (Core 1)</v>
+<v>Accel-000\Accel\CM4 (Core 1)\ARM GCC Generic</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Accel-000</v>
+<v>Accel-000\Accel</v>
+<v>Accel-000\Accel\TopDesign</v>
+<v>Accel-000\Accel\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Accel-000</v>
+<v>Accel-000\Accel</v>
+<v>Accel-000\Accel\TopDesign</v>
+<v>Accel-000\Accel\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Accel-000</v>
+<v>Accel-000\Accel</v>
+<v>Accel-000\Accel\CortexM0p</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\ADC.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\ADC_INIT.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\ADC_INT.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\ADC_PM.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\BLE.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\BLE_config.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\BLE_custom_config.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\bmi2.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\bmi270.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_aios.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_ancs.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_ans.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_bas.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_bcs.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_bls.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_bms.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_bts.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_cgms.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_clk.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_cps.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_cscs.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_cts.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_custom.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_dis.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_ess.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_event_handler.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_gap.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_gatt.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_gls.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_hal_int.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_hal_pvt.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_hids.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_hps.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_hrs.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_hts.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_ias.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_ips.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_lls.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_lns.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_ndcs.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_pass.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_plxs.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_rscs.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_rtus.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_scps.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_tps.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_uds.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_wpts.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_wss.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_device.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_efuse.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_flash.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_gpio.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_drv.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_pipe.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_sema.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_lvd.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_profile.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_prot.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sar.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_common.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_ezi2c.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_i2c.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_spi.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_uart.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysanalog.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysclk.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysint.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syslib.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syslib_gcc.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syspm.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_systick.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_trigmux.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_wdt.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_sysint_cfg.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\main_cm0p.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\retarget.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\SensorBus.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\startup_psoc6_01_cm0plus.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\stdio_user.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\system_psoc6_cm0plus.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Accel.elf</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Accel.hex</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Accel.map</v>
+<v>Accel-000\Accel\CortexM4</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\ADC.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\ADC_INIT.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\ADC_INT.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\ADC_PM.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\BLE.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\BLE_config.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\BLE_custom_config.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_aios.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_ancs.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_ans.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_bas.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_bcs.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_bls.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_bms.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_bts.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_cgms.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_clk.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_cps.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_cscs.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_cts.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_custom.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_dis.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_ess.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_event_handler.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_gap.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_gatt.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_gls.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_hal_int.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_hal_pvt.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_hids.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_hps.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_hrs.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_hts.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_ias.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_ips.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_lls.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_lns.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_ndcs.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_pass.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_plxs.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_rscs.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_rtus.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_scps.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_tps.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_uds.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_wpts.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_wss.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_device.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_efuse.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_flash.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_gpio.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ipc_drv.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ipc_pipe.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ipc_sema.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_lvd.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_profile.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_prot.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_sar.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_scb_common.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_scb_ezi2c.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_scb_i2c.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_scb_spi.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_scb_uart.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_sysanalog.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_sysclk.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_sysint.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_syslib.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_syslib_gcc.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_syspm.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_systick.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_trigmux.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_wdt.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cyfitter_sysint_cfg.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\main_cm4.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\retarget.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\SensorBus.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\startup_psoc6_01_cm4.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\stdio_user.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\system_psoc6_cm4.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Accel.elf</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Accel.hex</v>
+<v>Accel-000\Accel\CortexM4\ARM_GCC_541\Debug\Accel.map</v>
+<v>Accel-000\Accel\Accel.gpdsc</v>
+<v>Accel-000\Accel\Accel.rpt</v>
+<v>Accel-000\Accel\Accel_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Accel-000</v>
+<v>Accel-000\Accel</v>
+<v>Accel-000\Accel\CortexM0p</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\ADC.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\ADC_INIT.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\ADC_INT.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\ADC_PM.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\BLE.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\BLE_config.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\BLE_custom_config.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\bmi2.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\bmi270.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_aios.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_ancs.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_ans.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_bas.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_bcs.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_bls.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_bms.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_bts.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_cgms.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_clk.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_cps.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_cscs.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_cts.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_custom.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_dis.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_ess.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_event_handler.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_gap.lst</v>
+<v>Accel-000\Accel\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_gatt.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Accel-000</v>
+<v>Accel-000\Accel</v>
+<v>Accel-000\Accel\PSoC 6 Architecture TRM</v>
+<v>Accel-000\Accel\PSoC 63 Family Datasheet</v>
+<v>Accel-000\Accel\Peripheral Driver Library</v>
+<v>Accel-000\Accel\System Reference Guides</v>
+<v>Accel-000\Accel\BLE_PDL_v2_20.pdf</v>
+<v>Accel-000\Accel\GPIO_PDL_v1_0</v>
+<v>Accel-000\Accel\GPIO_PDL_v1_0\GPIO_PDL_v1_0.pdf</v>
+<v>Accel-000\Accel\Scan_ADC_P6_v3_10.pdf</v>
+<v>Accel-000\Accel\SCB_I2C_PDL_v2_0.pdf</v>
+<v>Accel-000\Accel\SCB_UART_PDL_v2_0.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Accel-000</v>
+<v>Accel-000\Accel</v>
+<v>Accel-000\Accel\PSoC 6 Architecture TRM</v>
+<v>Accel-000\Accel\PSoC 63 Family Datasheet</v>
+<v>Accel-000\Accel\Peripheral Driver Library</v>
+<v>Accel-000\Accel\System Reference Guides</v>
+<v>Accel-000\Accel\BLE_PDL_v2_20.pdf</v>
+<v>Accel-000\Accel\GPIO_PDL_v1_0</v>
+<v>Accel-000\Accel\GPIO_PDL_v1_0\GPIO_PDL_v1_0.pdf</v>
+<v>Accel-000\Accel\Scan_ADC_P6_v3_10.pdf</v>
+<v>Accel-000\Accel\SCB_I2C_PDL_v2_0.pdf</v>
+<v>Accel-000\Accel\SCB_UART_PDL_v2_0.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\Accel.cydwr" />
+<name v=".\TopDesign\TopDesign.cysch" />
+<name v=".\main_cm0p.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1259, 487" SelectedTabbedMdiWindow="86607369-bb1d-4dc6-9ae5-d3fcfcb66cbd"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="a6857142-12b5-4f87-9090-ae1baa734a3b" /><DocumentWindow Key="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\Accel.cydwr" Guid="5234e6e5-2d72-4bb0-a6cc-e0b4fb90d598" /><DocumentWindow Key="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\TopDesign\TopDesign.cysch" Guid="8619523f-1b73-40a9-ae8e-c7fcd434393b" /><DocumentWindow Key="C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\main_cm0p.c" Guid="86607369-bb1d-4dc6-9ae5-d3fcfcb66cbd" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

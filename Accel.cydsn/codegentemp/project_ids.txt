@@ -1,0 +1,6 @@
+C:\Users\efabi\Documents\PSoC Creator\Accel.cydsn\Accel.cyprj|f04dd215-3d9c-4aca-9dfe-49ef6dbfd13a
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|c1b8ea2b-e902-4aa6-abcc-22016343cadc
+C:\Users\efabi\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|830eae9d-8277-4138-a4a3-aeae5c647c5c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|ccf959eb-6121-4340-a24f-6e14aa717d05
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|2fa7e3d5-6a81-4856-bbcc-9aeeebc7d52f
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|2fd551eb-d68f-47c5-b02d-c154d32f3521

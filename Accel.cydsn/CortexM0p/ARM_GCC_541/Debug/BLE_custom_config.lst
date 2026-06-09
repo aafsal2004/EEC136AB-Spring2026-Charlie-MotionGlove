@@ -1,0 +1,2052 @@
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m0plus
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 0
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"BLE_custom_config.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_ble_customConfig
+  20              		.section	.rodata
+  21              		.align	2
+  22              		.type	cy_ble_customs, %object
+  23              		.size	cy_ble_customs, 6
+  24              	cy_ble_customs:
+  25 0000 1000     		.short	16
+  26 0002 1200     		.short	18
+  27 0004 1300     		.short	19
+  28              		.data
+  29              		.align	2
+  30              		.type	cy_ble_customConfig, %object
+  31              		.size	cy_ble_customConfig, 4
+  32              	cy_ble_customConfig:
+  33 0000 00000000 		.word	cy_ble_customs
+  34              		.text
+  35              	.Letext0:
+  36              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+  37              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+  38              		.file 3 "Generated_Source\\PSoC6\\pdl\\drivers/peripheral/device/cy_device.h"
+  39              		.file 4 "Generated_Source\\PSoC6\\pdl\\middleware/ble/cy_ble_stack_host_main.h"
+  40              		.file 5 "Generated_Source\\PSoC6\\pdl\\middleware/ble/cy_ble_stack_gatt.h"
+  41              		.file 6 "Generated_Source\\PSoC6\\pdl\\middleware/ble/cy_ble_gap.h"
+  42              		.file 7 "Generated_Source\\PSoC6\\pdl\\middleware/ble/cy_ble_custom.h"
+  43              		.file 8 "Generated_Source\\PSoC6\\BLE_custom_config.c"
+  44              		.section	.debug_info,"",%progbits
+  45              	.Ldebug_info0:
+  46 0000 F2060000 		.4byte	0x6f2
+  47 0004 0400     		.2byte	0x4
+  48 0006 00000000 		.4byte	.Ldebug_abbrev0
+  49 000a 04       		.byte	0x4
+  50 000b 01       		.uleb128 0x1
+  51 000c 94070000 		.4byte	.LASF142
+  52 0010 0C       		.byte	0xc
+  53 0011 F3030000 		.4byte	.LASF143
+  54 0015 B1050000 		.4byte	.LASF144
+  55 0019 00000000 		.4byte	.Ldebug_line0
+  56 001d 02       		.uleb128 0x2
+  57 001e 04       		.byte	0x4
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 2
+
+
+  58 001f 05       		.byte	0x5
+  59 0020 696E7400 		.ascii	"int\000"
+  60 0024 03       		.uleb128 0x3
+  61 0025 04       		.byte	0x4
+  62 0026 07       		.byte	0x7
+  63 0027 5E030000 		.4byte	.LASF0
+  64 002b 03       		.uleb128 0x3
+  65 002c 08       		.byte	0x8
+  66 002d 05       		.byte	0x5
+  67 002e 53010000 		.4byte	.LASF1
+  68 0032 03       		.uleb128 0x3
+  69 0033 08       		.byte	0x8
+  70 0034 04       		.byte	0x4
+  71 0035 26080000 		.4byte	.LASF2
+  72 0039 03       		.uleb128 0x3
+  73 003a 01       		.byte	0x1
+  74 003b 06       		.byte	0x6
+  75 003c 61010000 		.4byte	.LASF3
+  76 0040 04       		.uleb128 0x4
+  77 0041 86000000 		.4byte	.LASF5
+  78 0045 01       		.byte	0x1
+  79 0046 1D       		.byte	0x1d
+  80 0047 4B000000 		.4byte	0x4b
+  81 004b 03       		.uleb128 0x3
+  82 004c 01       		.byte	0x1
+  83 004d 08       		.byte	0x8
+  84 004e CF060000 		.4byte	.LASF4
+  85 0052 04       		.uleb128 0x4
+  86 0053 EA020000 		.4byte	.LASF6
+  87 0057 01       		.byte	0x1
+  88 0058 29       		.byte	0x29
+  89 0059 5D000000 		.4byte	0x5d
+  90 005d 03       		.uleb128 0x3
+  91 005e 02       		.byte	0x2
+  92 005f 05       		.byte	0x5
+  93 0060 F1060000 		.4byte	.LASF7
+  94 0064 04       		.uleb128 0x4
+  95 0065 51080000 		.4byte	.LASF8
+  96 0069 01       		.byte	0x1
+  97 006a 2B       		.byte	0x2b
+  98 006b 6F000000 		.4byte	0x6f
+  99 006f 03       		.uleb128 0x3
+ 100 0070 02       		.byte	0x2
+ 101 0071 07       		.byte	0x7
+ 102 0072 B9080000 		.4byte	.LASF9
+ 103 0076 03       		.uleb128 0x3
+ 104 0077 04       		.byte	0x4
+ 105 0078 05       		.byte	0x5
+ 106 0079 D5010000 		.4byte	.LASF10
+ 107 007d 04       		.uleb128 0x4
+ 108 007e C0020000 		.4byte	.LASF11
+ 109 0082 01       		.byte	0x1
+ 110 0083 41       		.byte	0x41
+ 111 0084 88000000 		.4byte	0x88
+ 112 0088 03       		.uleb128 0x3
+ 113 0089 04       		.byte	0x4
+ 114 008a 07       		.byte	0x7
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 3
+
+
+ 115 008b CD030000 		.4byte	.LASF12
+ 116 008f 03       		.uleb128 0x3
+ 117 0090 08       		.byte	0x8
+ 118 0091 07       		.byte	0x7
+ 119 0092 E8000000 		.4byte	.LASF13
+ 120 0096 03       		.uleb128 0x3
+ 121 0097 04       		.byte	0x4
+ 122 0098 07       		.byte	0x7
+ 123 0099 23050000 		.4byte	.LASF14
+ 124 009d 03       		.uleb128 0x3
+ 125 009e 01       		.byte	0x1
+ 126 009f 08       		.byte	0x8
+ 127 00a0 32080000 		.4byte	.LASF15
+ 128 00a4 04       		.uleb128 0x4
+ 129 00a5 7D090000 		.4byte	.LASF16
+ 130 00a9 02       		.byte	0x2
+ 131 00aa 18       		.byte	0x18
+ 132 00ab 40000000 		.4byte	0x40
+ 133 00af 04       		.uleb128 0x4
+ 134 00b0 4B010000 		.4byte	.LASF17
+ 135 00b4 02       		.byte	0x2
+ 136 00b5 20       		.byte	0x20
+ 137 00b6 52000000 		.4byte	0x52
+ 138 00ba 04       		.uleb128 0x4
+ 139 00bb B2030000 		.4byte	.LASF18
+ 140 00bf 02       		.byte	0x2
+ 141 00c0 24       		.byte	0x24
+ 142 00c1 64000000 		.4byte	0x64
+ 143 00c5 04       		.uleb128 0x4
+ 144 00c6 8B070000 		.4byte	.LASF19
+ 145 00ca 02       		.byte	0x2
+ 146 00cb 30       		.byte	0x30
+ 147 00cc 7D000000 		.4byte	0x7d
+ 148 00d0 05       		.uleb128 0x5
+ 149 00d1 B8       		.byte	0xb8
+ 150 00d2 03       		.byte	0x3
+ 151 00d3 34       		.byte	0x34
+ 152 00d4 E1040000 		.4byte	0x4e1
+ 153 00d8 06       		.uleb128 0x6
+ 154 00d9 CF000000 		.4byte	.LASF20
+ 155 00dd 03       		.byte	0x3
+ 156 00de 37       		.byte	0x37
+ 157 00df C5000000 		.4byte	0xc5
+ 158 00e3 00       		.byte	0
+ 159 00e4 06       		.uleb128 0x6
+ 160 00e5 B5020000 		.4byte	.LASF21
+ 161 00e9 03       		.byte	0x3
+ 162 00ea 38       		.byte	0x38
+ 163 00eb C5000000 		.4byte	0xc5
+ 164 00ef 04       		.byte	0x4
+ 165 00f0 06       		.uleb128 0x6
+ 166 00f1 19020000 		.4byte	.LASF22
+ 167 00f5 03       		.byte	0x3
+ 168 00f6 39       		.byte	0x39
+ 169 00f7 C5000000 		.4byte	0xc5
+ 170 00fb 08       		.byte	0x8
+ 171 00fc 06       		.uleb128 0x6
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 4
+
+
+ 172 00fd 97060000 		.4byte	.LASF23
+ 173 0101 03       		.byte	0x3
+ 174 0102 3A       		.byte	0x3a
+ 175 0103 C5000000 		.4byte	0xc5
+ 176 0107 0C       		.byte	0xc
+ 177 0108 06       		.uleb128 0x6
+ 178 0109 82010000 		.4byte	.LASF24
+ 179 010d 03       		.byte	0x3
+ 180 010e 3B       		.byte	0x3b
+ 181 010f C5000000 		.4byte	0xc5
+ 182 0113 10       		.byte	0x10
+ 183 0114 06       		.uleb128 0x6
+ 184 0115 CB010000 		.4byte	.LASF25
+ 185 0119 03       		.byte	0x3
+ 186 011a 3C       		.byte	0x3c
+ 187 011b C5000000 		.4byte	0xc5
+ 188 011f 14       		.byte	0x14
+ 189 0120 06       		.uleb128 0x6
+ 190 0121 EA030000 		.4byte	.LASF26
+ 191 0125 03       		.byte	0x3
+ 192 0126 3D       		.byte	0x3d
+ 193 0127 C5000000 		.4byte	0xc5
+ 194 012b 18       		.byte	0x18
+ 195 012c 06       		.uleb128 0x6
+ 196 012d 67000000 		.4byte	.LASF27
+ 197 0131 03       		.byte	0x3
+ 198 0132 3E       		.byte	0x3e
+ 199 0133 C5000000 		.4byte	0xc5
+ 200 0137 1C       		.byte	0x1c
+ 201 0138 06       		.uleb128 0x6
+ 202 0139 E7090000 		.4byte	.LASF28
+ 203 013d 03       		.byte	0x3
+ 204 013e 3F       		.byte	0x3f
+ 205 013f C5000000 		.4byte	0xc5
+ 206 0143 20       		.byte	0x20
+ 207 0144 06       		.uleb128 0x6
+ 208 0145 08060000 		.4byte	.LASF29
+ 209 0149 03       		.byte	0x3
+ 210 014a 40       		.byte	0x40
+ 211 014b C5000000 		.4byte	0xc5
+ 212 014f 24       		.byte	0x24
+ 213 0150 06       		.uleb128 0x6
+ 214 0151 D8040000 		.4byte	.LASF30
+ 215 0155 03       		.byte	0x3
+ 216 0156 43       		.byte	0x43
+ 217 0157 A4000000 		.4byte	0xa4
+ 218 015b 28       		.byte	0x28
+ 219 015c 06       		.uleb128 0x6
+ 220 015d 4D000000 		.4byte	.LASF31
+ 221 0161 03       		.byte	0x3
+ 222 0162 44       		.byte	0x44
+ 223 0163 A4000000 		.4byte	0xa4
+ 224 0167 29       		.byte	0x29
+ 225 0168 06       		.uleb128 0x6
+ 226 0169 DD090000 		.4byte	.LASF32
+ 227 016d 03       		.byte	0x3
+ 228 016e 45       		.byte	0x45
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 5
+
+
+ 229 016f A4000000 		.4byte	0xa4
+ 230 0173 2A       		.byte	0x2a
+ 231 0174 06       		.uleb128 0x6
+ 232 0175 FA050000 		.4byte	.LASF33
+ 233 0179 03       		.byte	0x3
+ 234 017a 46       		.byte	0x46
+ 235 017b A4000000 		.4byte	0xa4
+ 236 017f 2B       		.byte	0x2b
+ 237 0180 06       		.uleb128 0x6
+ 238 0181 68040000 		.4byte	.LASF34
+ 239 0185 03       		.byte	0x3
+ 240 0186 47       		.byte	0x47
+ 241 0187 A4000000 		.4byte	0xa4
+ 242 018b 2C       		.byte	0x2c
+ 243 018c 06       		.uleb128 0x6
+ 244 018d 98080000 		.4byte	.LASF35
+ 245 0191 03       		.byte	0x3
+ 246 0192 48       		.byte	0x48
+ 247 0193 A4000000 		.4byte	0xa4
+ 248 0197 2D       		.byte	0x2d
+ 249 0198 06       		.uleb128 0x6
+ 250 0199 8B010000 		.4byte	.LASF36
+ 251 019d 03       		.byte	0x3
+ 252 019e 49       		.byte	0x49
+ 253 019f A4000000 		.4byte	0xa4
+ 254 01a3 2E       		.byte	0x2e
+ 255 01a4 06       		.uleb128 0x6
+ 256 01a5 02050000 		.4byte	.LASF37
+ 257 01a9 03       		.byte	0x3
+ 258 01aa 4A       		.byte	0x4a
+ 259 01ab A4000000 		.4byte	0xa4
+ 260 01af 2F       		.byte	0x2f
+ 261 01b0 06       		.uleb128 0x6
+ 262 01b1 37080000 		.4byte	.LASF38
+ 263 01b5 03       		.byte	0x3
+ 264 01b6 4B       		.byte	0x4b
+ 265 01b7 A4000000 		.4byte	0xa4
+ 266 01bb 30       		.byte	0x30
+ 267 01bc 06       		.uleb128 0x6
+ 268 01bd DF030000 		.4byte	.LASF39
+ 269 01c1 03       		.byte	0x3
+ 270 01c2 4E       		.byte	0x4e
+ 271 01c3 A4000000 		.4byte	0xa4
+ 272 01c7 31       		.byte	0x31
+ 273 01c8 06       		.uleb128 0x6
+ 274 01c9 78000000 		.4byte	.LASF40
+ 275 01cd 03       		.byte	0x3
+ 276 01ce 4F       		.byte	0x4f
+ 277 01cf A4000000 		.4byte	0xa4
+ 278 01d3 32       		.byte	0x32
+ 279 01d4 06       		.uleb128 0x6
+ 280 01d5 52030000 		.4byte	.LASF41
+ 281 01d9 03       		.byte	0x3
+ 282 01da 50       		.byte	0x50
+ 283 01db A4000000 		.4byte	0xa4
+ 284 01df 33       		.byte	0x33
+ 285 01e0 06       		.uleb128 0x6
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 6
+
+
+ 286 01e1 37050000 		.4byte	.LASF42
+ 287 01e5 03       		.byte	0x3
+ 288 01e6 51       		.byte	0x51
+ 289 01e7 A4000000 		.4byte	0xa4
+ 290 01eb 34       		.byte	0x34
+ 291 01ec 06       		.uleb128 0x6
+ 292 01ed E3080000 		.4byte	.LASF43
+ 293 01f1 03       		.byte	0x3
+ 294 01f2 52       		.byte	0x52
+ 295 01f3 AF000000 		.4byte	0xaf
+ 296 01f7 36       		.byte	0x36
+ 297 01f8 06       		.uleb128 0x6
+ 298 01f9 33020000 		.4byte	.LASF44
+ 299 01fd 03       		.byte	0x3
+ 300 01fe 53       		.byte	0x53
+ 301 01ff AF000000 		.4byte	0xaf
+ 302 0203 38       		.byte	0x38
+ 303 0204 06       		.uleb128 0x6
+ 304 0205 32090000 		.4byte	.LASF45
+ 305 0209 03       		.byte	0x3
+ 306 020a 54       		.byte	0x54
+ 307 020b AF000000 		.4byte	0xaf
+ 308 020f 3A       		.byte	0x3a
+ 309 0210 06       		.uleb128 0x6
+ 310 0211 CE090000 		.4byte	.LASF46
+ 311 0215 03       		.byte	0x3
+ 312 0216 55       		.byte	0x55
+ 313 0217 A4000000 		.4byte	0xa4
+ 314 021b 3C       		.byte	0x3c
+ 315 021c 06       		.uleb128 0x6
+ 316 021d 5A020000 		.4byte	.LASF47
+ 317 0221 03       		.byte	0x3
+ 318 0222 56       		.byte	0x56
+ 319 0223 A4000000 		.4byte	0xa4
+ 320 0227 3D       		.byte	0x3d
+ 321 0228 06       		.uleb128 0x6
+ 322 0229 6D070000 		.4byte	.LASF48
+ 323 022d 03       		.byte	0x3
+ 324 022e 57       		.byte	0x57
+ 325 022f A4000000 		.4byte	0xa4
+ 326 0233 3E       		.byte	0x3e
+ 327 0234 06       		.uleb128 0x6
+ 328 0235 5B000000 		.4byte	.LASF49
+ 329 0239 03       		.byte	0x3
+ 330 023a 58       		.byte	0x58
+ 331 023b A4000000 		.4byte	0xa4
+ 332 023f 3F       		.byte	0x3f
+ 333 0240 06       		.uleb128 0x6
+ 334 0241 13060000 		.4byte	.LASF50
+ 335 0245 03       		.byte	0x3
+ 336 0246 59       		.byte	0x59
+ 337 0247 A4000000 		.4byte	0xa4
+ 338 024b 40       		.byte	0x40
+ 339 024c 06       		.uleb128 0x6
+ 340 024d DA020000 		.4byte	.LASF51
+ 341 0251 03       		.byte	0x3
+ 342 0252 5A       		.byte	0x5a
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 7
+
+
+ 343 0253 A4000000 		.4byte	0xa4
+ 344 0257 41       		.byte	0x41
+ 345 0258 06       		.uleb128 0x6
+ 346 0259 84040000 		.4byte	.LASF52
+ 347 025d 03       		.byte	0x3
+ 348 025e 5B       		.byte	0x5b
+ 349 025f A4000000 		.4byte	0xa4
+ 350 0263 42       		.byte	0x42
+ 351 0264 06       		.uleb128 0x6
+ 352 0265 F4020000 		.4byte	.LASF53
+ 353 0269 03       		.byte	0x3
+ 354 026a 5C       		.byte	0x5c
+ 355 026b A4000000 		.4byte	0xa4
+ 356 026f 43       		.byte	0x43
+ 357 0270 06       		.uleb128 0x6
+ 358 0271 22020000 		.4byte	.LASF54
+ 359 0275 03       		.byte	0x3
+ 360 0276 5D       		.byte	0x5d
+ 361 0277 A4000000 		.4byte	0xa4
+ 362 027b 44       		.byte	0x44
+ 363 027c 06       		.uleb128 0x6
+ 364 027d 00000000 		.4byte	.LASF55
+ 365 0281 03       		.byte	0x3
+ 366 0282 5E       		.byte	0x5e
+ 367 0283 C5000000 		.4byte	0xc5
+ 368 0287 48       		.byte	0x48
+ 369 0288 06       		.uleb128 0x6
+ 370 0289 F5010000 		.4byte	.LASF56
+ 371 028d 03       		.byte	0x3
+ 372 028e 5F       		.byte	0x5f
+ 373 028f C5000000 		.4byte	0xc5
+ 374 0293 4C       		.byte	0x4c
+ 375 0294 06       		.uleb128 0x6
+ 376 0295 5D0A0000 		.4byte	.LASF57
+ 377 0299 03       		.byte	0x3
+ 378 029a 60       		.byte	0x60
+ 379 029b A4000000 		.4byte	0xa4
+ 380 029f 50       		.byte	0x50
+ 381 02a0 06       		.uleb128 0x6
+ 382 02a1 25010000 		.4byte	.LASF58
+ 383 02a5 03       		.byte	0x3
+ 384 02a6 61       		.byte	0x61
+ 385 02a7 A4000000 		.4byte	0xa4
+ 386 02ab 51       		.byte	0x51
+ 387 02ac 06       		.uleb128 0x6
+ 388 02ad 20060000 		.4byte	.LASF59
+ 389 02b1 03       		.byte	0x3
+ 390 02b2 62       		.byte	0x62
+ 391 02b3 A4000000 		.4byte	0xa4
+ 392 02b7 52       		.byte	0x52
+ 393 02b8 06       		.uleb128 0x6
+ 394 02b9 050A0000 		.4byte	.LASF60
+ 395 02bd 03       		.byte	0x3
+ 396 02be 63       		.byte	0x63
+ 397 02bf A4000000 		.4byte	0xa4
+ 398 02c3 53       		.byte	0x53
+ 399 02c4 06       		.uleb128 0x6
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 8
+
+
+ 400 02c5 7B070000 		.4byte	.LASF61
+ 401 02c9 03       		.byte	0x3
+ 402 02ca 64       		.byte	0x64
+ 403 02cb A4000000 		.4byte	0xa4
+ 404 02cf 54       		.byte	0x54
+ 405 02d0 06       		.uleb128 0x6
+ 406 02d1 37010000 		.4byte	.LASF62
+ 407 02d5 03       		.byte	0x3
+ 408 02d6 65       		.byte	0x65
+ 409 02d7 A4000000 		.4byte	0xa4
+ 410 02db 55       		.byte	0x55
+ 411 02dc 06       		.uleb128 0x6
+ 412 02dd A5080000 		.4byte	.LASF63
+ 413 02e1 03       		.byte	0x3
+ 414 02e2 66       		.byte	0x66
+ 415 02e3 A4000000 		.4byte	0xa4
+ 416 02e7 56       		.byte	0x56
+ 417 02e8 06       		.uleb128 0x6
+ 418 02e9 29070000 		.4byte	.LASF64
+ 419 02ed 03       		.byte	0x3
+ 420 02ee 67       		.byte	0x67
+ 421 02ef A4000000 		.4byte	0xa4
+ 422 02f3 57       		.byte	0x57
+ 423 02f4 06       		.uleb128 0x6
+ 424 02f5 12000000 		.4byte	.LASF65
+ 425 02f9 03       		.byte	0x3
+ 426 02fa 68       		.byte	0x68
+ 427 02fb A4000000 		.4byte	0xa4
+ 428 02ff 58       		.byte	0x58
+ 429 0300 06       		.uleb128 0x6
+ 430 0301 DD060000 		.4byte	.LASF66
+ 431 0305 03       		.byte	0x3
+ 432 0306 69       		.byte	0x69
+ 433 0307 A4000000 		.4byte	0xa4
+ 434 030b 59       		.byte	0x59
+ 435 030c 06       		.uleb128 0x6
+ 436 030d 2C050000 		.4byte	.LASF67
+ 437 0311 03       		.byte	0x3
+ 438 0312 6E       		.byte	0x6e
+ 439 0313 BA000000 		.4byte	0xba
+ 440 0317 5A       		.byte	0x5a
+ 441 0318 06       		.uleb128 0x6
+ 442 0319 CC080000 		.4byte	.LASF68
+ 443 031d 03       		.byte	0x3
+ 444 031e 6F       		.byte	0x6f
+ 445 031f BA000000 		.4byte	0xba
+ 446 0323 5C       		.byte	0x5c
+ 447 0324 06       		.uleb128 0x6
+ 448 0325 D9000000 		.4byte	.LASF69
+ 449 0329 03       		.byte	0x3
+ 450 032a 70       		.byte	0x70
+ 451 032b A4000000 		.4byte	0xa4
+ 452 032f 5E       		.byte	0x5e
+ 453 0330 06       		.uleb128 0x6
+ 454 0331 81060000 		.4byte	.LASF70
+ 455 0335 03       		.byte	0x3
+ 456 0336 71       		.byte	0x71
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 9
+
+
+ 457 0337 A4000000 		.4byte	0xa4
+ 458 033b 5F       		.byte	0x5f
+ 459 033c 06       		.uleb128 0x6
+ 460 033d A0050000 		.4byte	.LASF71
+ 461 0341 03       		.byte	0x3
+ 462 0342 72       		.byte	0x72
+ 463 0343 A4000000 		.4byte	0xa4
+ 464 0347 60       		.byte	0x60
+ 465 0348 06       		.uleb128 0x6
+ 466 0349 5A060000 		.4byte	.LASF72
+ 467 034d 03       		.byte	0x3
+ 468 034e 73       		.byte	0x73
+ 469 034f C5000000 		.4byte	0xc5
+ 470 0353 64       		.byte	0x64
+ 471 0354 06       		.uleb128 0x6
+ 472 0355 FF000000 		.4byte	.LASF73
+ 473 0359 03       		.byte	0x3
+ 474 035a 76       		.byte	0x76
+ 475 035b BA000000 		.4byte	0xba
+ 476 035f 68       		.byte	0x68
+ 477 0360 06       		.uleb128 0x6
+ 478 0361 BB030000 		.4byte	.LASF74
+ 479 0365 03       		.byte	0x3
+ 480 0366 77       		.byte	0x77
+ 481 0367 BA000000 		.4byte	0xba
+ 482 036b 6A       		.byte	0x6a
+ 483 036c 06       		.uleb128 0x6
+ 484 036d 1E040000 		.4byte	.LASF75
+ 485 0371 03       		.byte	0x3
+ 486 0372 78       		.byte	0x78
+ 487 0373 BA000000 		.4byte	0xba
+ 488 0377 6C       		.byte	0x6c
+ 489 0378 06       		.uleb128 0x6
+ 490 0379 5B040000 		.4byte	.LASF76
+ 491 037d 03       		.byte	0x3
+ 492 037e 79       		.byte	0x79
+ 493 037f BA000000 		.4byte	0xba
+ 494 0383 6E       		.byte	0x6e
+ 495 0384 06       		.uleb128 0x6
+ 496 0385 15070000 		.4byte	.LASF77
+ 497 0389 03       		.byte	0x3
+ 498 038a 7B       		.byte	0x7b
+ 499 038b A4000000 		.4byte	0xa4
+ 500 038f 70       		.byte	0x70
+ 501 0390 06       		.uleb128 0x6
+ 502 0391 6D010000 		.4byte	.LASF78
+ 503 0395 03       		.byte	0x3
+ 504 0396 7C       		.byte	0x7c
+ 505 0397 A4000000 		.4byte	0xa4
+ 506 039b 71       		.byte	0x71
+ 507 039c 06       		.uleb128 0x6
+ 508 039d EF090000 		.4byte	.LASF79
+ 509 03a1 03       		.byte	0x3
+ 510 03a2 7D       		.byte	0x7d
+ 511 03a3 A4000000 		.4byte	0xa4
+ 512 03a7 72       		.byte	0x72
+ 513 03a8 06       		.uleb128 0x6
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 10
+
+
+ 514 03a9 67050000 		.4byte	.LASF80
+ 515 03ad 03       		.byte	0x3
+ 516 03ae 7E       		.byte	0x7e
+ 517 03af A4000000 		.4byte	0xa4
+ 518 03b3 73       		.byte	0x73
+ 519 03b4 06       		.uleb128 0x6
+ 520 03b5 65020000 		.4byte	.LASF81
+ 521 03b9 03       		.byte	0x3
+ 522 03ba 80       		.byte	0x80
+ 523 03bb BA000000 		.4byte	0xba
+ 524 03bf 74       		.byte	0x74
+ 525 03c0 06       		.uleb128 0x6
+ 526 03c1 75080000 		.4byte	.LASF82
+ 527 03c5 03       		.byte	0x3
+ 528 03c6 81       		.byte	0x81
+ 529 03c7 BA000000 		.4byte	0xba
+ 530 03cb 76       		.byte	0x76
+ 531 03cc 06       		.uleb128 0x6
+ 532 03cd 45020000 		.4byte	.LASF83
+ 533 03d1 03       		.byte	0x3
+ 534 03d2 82       		.byte	0x82
+ 535 03d3 BA000000 		.4byte	0xba
+ 536 03d7 78       		.byte	0x78
+ 537 03d8 06       		.uleb128 0x6
+ 538 03d9 90000000 		.4byte	.LASF84
+ 539 03dd 03       		.byte	0x3
+ 540 03de 83       		.byte	0x83
+ 541 03df BA000000 		.4byte	0xba
+ 542 03e3 7A       		.byte	0x7a
+ 543 03e4 06       		.uleb128 0x6
+ 544 03e5 9A090000 		.4byte	.LASF85
+ 545 03e9 03       		.byte	0x3
+ 546 03ea 86       		.byte	0x86
+ 547 03eb A4000000 		.4byte	0xa4
+ 548 03ef 7C       		.byte	0x7c
+ 549 03f0 06       		.uleb128 0x6
+ 550 03f1 F0080000 		.4byte	.LASF86
+ 551 03f5 03       		.byte	0x3
+ 552 03f6 87       		.byte	0x87
+ 553 03f7 A4000000 		.4byte	0xa4
+ 554 03fb 7D       		.byte	0x7d
+ 555 03fc 06       		.uleb128 0x6
+ 556 03fd 26000000 		.4byte	.LASF87
+ 557 0401 03       		.byte	0x3
+ 558 0402 88       		.byte	0x88
+ 559 0403 A4000000 		.4byte	0xa4
+ 560 0407 7E       		.byte	0x7e
+ 561 0408 06       		.uleb128 0x6
+ 562 0409 A1020000 		.4byte	.LASF88
+ 563 040d 03       		.byte	0x3
+ 564 040e 89       		.byte	0x89
+ 565 040f A4000000 		.4byte	0xa4
+ 566 0413 7F       		.byte	0x7f
+ 567 0414 06       		.uleb128 0x6
+ 568 0415 3E030000 		.4byte	.LASF89
+ 569 0419 03       		.byte	0x3
+ 570 041a 8A       		.byte	0x8a
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 11
+
+
+ 571 041b A4000000 		.4byte	0xa4
+ 572 041f 80       		.byte	0x80
+ 573 0420 06       		.uleb128 0x6
+ 574 0421 BB040000 		.4byte	.LASF90
+ 575 0425 03       		.byte	0x3
+ 576 0426 8D       		.byte	0x8d
+ 577 0427 C5000000 		.4byte	0xc5
+ 578 042b 84       		.byte	0x84
+ 579 042c 06       		.uleb128 0x6
+ 580 042d DE010000 		.4byte	.LASF91
+ 581 0431 03       		.byte	0x3
+ 582 0432 8E       		.byte	0x8e
+ 583 0433 C5000000 		.4byte	0xc5
+ 584 0437 88       		.byte	0x88
+ 585 0438 06       		.uleb128 0x6
+ 586 0439 85090000 		.4byte	.LASF92
+ 587 043d 03       		.byte	0x3
+ 588 043e 8F       		.byte	0x8f
+ 589 043f C5000000 		.4byte	0xc5
+ 590 0443 8C       		.byte	0x8c
+ 591 0444 06       		.uleb128 0x6
+ 592 0445 0E050000 		.4byte	.LASF93
+ 593 0449 03       		.byte	0x3
+ 594 044a 90       		.byte	0x90
+ 595 044b C5000000 		.4byte	0xc5
+ 596 044f 90       		.byte	0x90
+ 597 0450 06       		.uleb128 0x6
+ 598 0451 FF020000 		.4byte	.LASF94
+ 599 0455 03       		.byte	0x3
+ 600 0456 91       		.byte	0x91
+ 601 0457 C5000000 		.4byte	0xc5
+ 602 045b 94       		.byte	0x94
+ 603 045c 06       		.uleb128 0x6
+ 604 045d A5040000 		.4byte	.LASF95
+ 605 0461 03       		.byte	0x3
+ 606 0462 92       		.byte	0x92
+ 607 0463 C5000000 		.4byte	0xc5
+ 608 0467 98       		.byte	0x98
+ 609 0468 06       		.uleb128 0x6
+ 610 0469 AF090000 		.4byte	.LASF96
+ 611 046d 03       		.byte	0x3
+ 612 046e 93       		.byte	0x93
+ 613 046f C5000000 		.4byte	0xc5
+ 614 0473 9C       		.byte	0x9c
+ 615 0474 06       		.uleb128 0x6
+ 616 0475 0F010000 		.4byte	.LASF97
+ 617 0479 03       		.byte	0x3
+ 618 047a 94       		.byte	0x94
+ 619 047b C5000000 		.4byte	0xc5
+ 620 047f A0       		.byte	0xa0
+ 621 0480 06       		.uleb128 0x6
+ 622 0481 96010000 		.4byte	.LASF98
+ 623 0485 03       		.byte	0x3
+ 624 0486 95       		.byte	0x95
+ 625 0487 BA000000 		.4byte	0xba
+ 626 048b A4       		.byte	0xa4
+ 627 048c 06       		.uleb128 0x6
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 12
+
+
+ 628 048d 90040000 		.4byte	.LASF99
+ 629 0491 03       		.byte	0x3
+ 630 0492 96       		.byte	0x96
+ 631 0493 BA000000 		.4byte	0xba
+ 632 0497 A6       		.byte	0xa6
+ 633 0498 06       		.uleb128 0x6
+ 634 0499 75060000 		.4byte	.LASF100
+ 635 049d 03       		.byte	0x3
+ 636 049e 97       		.byte	0x97
+ 637 049f BA000000 		.4byte	0xba
+ 638 04a3 A8       		.byte	0xa8
+ 639 04a4 06       		.uleb128 0x6
+ 640 04a5 43080000 		.4byte	.LASF101
+ 641 04a9 03       		.byte	0x3
+ 642 04aa 98       		.byte	0x98
+ 643 04ab BA000000 		.4byte	0xba
+ 644 04af AA       		.byte	0xaa
+ 645 04b0 06       		.uleb128 0x6
+ 646 04b1 2D040000 		.4byte	.LASF102
+ 647 04b5 03       		.byte	0x3
+ 648 04b6 99       		.byte	0x99
+ 649 04b7 BA000000 		.4byte	0xba
+ 650 04bb AC       		.byte	0xac
+ 651 04bc 06       		.uleb128 0x6
+ 652 04bd 7E050000 		.4byte	.LASF103
+ 653 04c1 03       		.byte	0x3
+ 654 04c2 9A       		.byte	0x9a
+ 655 04c3 BA000000 		.4byte	0xba
+ 656 04c7 AE       		.byte	0xae
+ 657 04c8 06       		.uleb128 0x6
+ 658 04c9 D5080000 		.4byte	.LASF104
+ 659 04cd 03       		.byte	0x3
+ 660 04ce 9D       		.byte	0x9d
+ 661 04cf BA000000 		.4byte	0xba
+ 662 04d3 B0       		.byte	0xb0
+ 663 04d4 06       		.uleb128 0x6
+ 664 04d5 39000000 		.4byte	.LASF105
+ 665 04d9 03       		.byte	0x3
+ 666 04da 9E       		.byte	0x9e
+ 667 04db C5000000 		.4byte	0xc5
+ 668 04df B4       		.byte	0xb4
+ 669 04e0 00       		.byte	0
+ 670 04e1 04       		.uleb128 0x4
+ 671 04e2 74040000 		.4byte	.LASF106
+ 672 04e6 03       		.byte	0x3
+ 673 04e7 9F       		.byte	0x9f
+ 674 04e8 D0000000 		.4byte	0xd0
+ 675 04ec 03       		.uleb128 0x3
+ 676 04ed 04       		.byte	0x4
+ 677 04ee 04       		.byte	0x4
+ 678 04ef 54060000 		.4byte	.LASF107
+ 679 04f3 03       		.uleb128 0x3
+ 680 04f4 08       		.byte	0x8
+ 681 04f5 04       		.byte	0x4
+ 682 04f6 3E020000 		.4byte	.LASF108
+ 683 04fa 07       		.uleb128 0x7
+ 684 04fb 02       		.byte	0x2
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 13
+
+
+ 685 04fc 04       		.byte	0x4
+ 686 04fd 6401     		.2byte	0x164
+ 687 04ff 1E050000 		.4byte	0x51e
+ 688 0503 08       		.uleb128 0x8
+ 689 0504 C5090000 		.4byte	.LASF109
+ 690 0508 04       		.byte	0x4
+ 691 0509 6E01     		.2byte	0x16e
+ 692 050b A4000000 		.4byte	0xa4
+ 693 050f 00       		.byte	0
+ 694 0510 08       		.uleb128 0x8
+ 695 0511 D2040000 		.4byte	.LASF110
+ 696 0515 04       		.byte	0x4
+ 697 0516 7201     		.2byte	0x172
+ 698 0518 A4000000 		.4byte	0xa4
+ 699 051c 01       		.byte	0x1
+ 700 051d 00       		.byte	0
+ 701 051e 09       		.uleb128 0x9
+ 702 051f A5000000 		.4byte	.LASF111
+ 703 0523 04       		.byte	0x4
+ 704 0524 7401     		.2byte	0x174
+ 705 0526 FA040000 		.4byte	0x4fa
+ 706 052a 09       		.uleb128 0x9
+ 707 052b E5040000 		.4byte	.LASF112
+ 708 052f 05       		.byte	0x5
+ 709 0530 7F01     		.2byte	0x17f
+ 710 0532 BA000000 		.4byte	0xba
+ 711 0536 0A       		.uleb128 0xa
+ 712 0537 01       		.byte	0x1
+ 713 0538 4B000000 		.4byte	0x4b
+ 714 053c 06       		.byte	0x6
+ 715 053d 7E       		.byte	0x7e
+ 716 053e 5B050000 		.4byte	0x55b
+ 717 0542 0B       		.uleb128 0xb
+ 718 0543 64090000 		.4byte	.LASF113
+ 719 0547 00       		.byte	0
+ 720 0548 0B       		.uleb128 0xb
+ 721 0549 48050000 		.4byte	.LASF114
+ 722 054d 01       		.byte	0x1
+ 723 054e 0B       		.uleb128 0xb
+ 724 054f 47090000 		.4byte	.LASF115
+ 725 0553 02       		.byte	0x2
+ 726 0554 0B       		.uleb128 0xb
+ 727 0555 AB010000 		.4byte	.LASF116
+ 728 0559 03       		.byte	0x3
+ 729 055a 00       		.byte	0
+ 730 055b 04       		.uleb128 0x4
+ 731 055c 03020000 		.4byte	.LASF117
+ 732 0560 06       		.byte	0x6
+ 733 0561 83       		.byte	0x83
+ 734 0562 36050000 		.4byte	0x536
+ 735 0566 0A       		.uleb128 0xa
+ 736 0567 01       		.byte	0x1
+ 737 0568 4B000000 		.4byte	0x4b
+ 738 056c 06       		.byte	0x6
+ 739 056d 87       		.byte	0x87
+ 740 056e A3050000 		.4byte	0x5a3
+ 741 0572 0B       		.uleb128 0xb
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 14
+
+
+ 742 0573 01090000 		.4byte	.LASF118
+ 743 0577 00       		.byte	0
+ 744 0578 0B       		.uleb128 0xb
+ 745 0579 2C0A0000 		.4byte	.LASF119
+ 746 057d 01       		.byte	0x1
+ 747 057e 0B       		.uleb128 0xb
+ 748 057f 6B030000 		.4byte	.LASF120
+ 749 0583 02       		.byte	0x2
+ 750 0584 0B       		.uleb128 0xb
+ 751 0585 14030000 		.4byte	.LASF121
+ 752 0589 03       		.byte	0x3
+ 753 058a 0B       		.uleb128 0xb
+ 754 058b 77020000 		.4byte	.LASF122
+ 755 058f 04       		.byte	0x4
+ 756 0590 0B       		.uleb128 0xb
+ 757 0591 9F060000 		.4byte	.LASF123
+ 758 0595 05       		.byte	0x5
+ 759 0596 0B       		.uleb128 0xb
+ 760 0597 87030000 		.4byte	.LASF124
+ 761 059b 06       		.byte	0x6
+ 762 059c 0B       		.uleb128 0xb
+ 763 059d 30060000 		.4byte	.LASF125
+ 764 05a1 07       		.byte	0x7
+ 765 05a2 00       		.byte	0
+ 766 05a3 04       		.uleb128 0x4
+ 767 05a4 E3050000 		.4byte	.LASF126
+ 768 05a8 06       		.byte	0x6
+ 769 05a9 90       		.byte	0x90
+ 770 05aa 66050000 		.4byte	0x566
+ 771 05ae 03       		.uleb128 0x3
+ 772 05af 01       		.byte	0x1
+ 773 05b0 02       		.byte	0x2
+ 774 05b1 C9060000 		.4byte	.LASF127
+ 775 05b5 05       		.uleb128 0x5
+ 776 05b6 04       		.byte	0x4
+ 777 05b7 07       		.byte	0x7
+ 778 05b8 3B       		.byte	0x3b
+ 779 05b9 D6050000 		.4byte	0x5d6
+ 780 05bd 06       		.uleb128 0x6
+ 781 05be 170A0000 		.4byte	.LASF128
+ 782 05c2 07       		.byte	0x7
+ 783 05c3 3E       		.byte	0x3e
+ 784 05c4 2A050000 		.4byte	0x52a
+ 785 05c8 00       		.byte	0
+ 786 05c9 06       		.uleb128 0x6
+ 787 05ca 6E0A0000 		.4byte	.LASF129
+ 788 05ce 07       		.byte	0x7
+ 789 05cf 41       		.byte	0x41
+ 790 05d0 D6050000 		.4byte	0x5d6
+ 791 05d4 02       		.byte	0x2
+ 792 05d5 00       		.byte	0
+ 793 05d6 0C       		.uleb128 0xc
+ 794 05d7 2A050000 		.4byte	0x52a
+ 795 05db E6050000 		.4byte	0x5e6
+ 796 05df 0D       		.uleb128 0xd
+ 797 05e0 96000000 		.4byte	0x96
+ 798 05e4 00       		.byte	0
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 15
+
+
+ 799 05e5 00       		.byte	0
+ 800 05e6 04       		.uleb128 0x4
+ 801 05e7 FB060000 		.4byte	.LASF130
+ 802 05eb 07       		.byte	0x7
+ 803 05ec 43       		.byte	0x43
+ 804 05ed B5050000 		.4byte	0x5b5
+ 805 05f1 05       		.uleb128 0x5
+ 806 05f2 06       		.byte	0x6
+ 807 05f3 07       		.byte	0x7
+ 808 05f4 46       		.byte	0x46
+ 809 05f5 12060000 		.4byte	0x612
+ 810 05f9 06       		.uleb128 0x6
+ 811 05fa BE000000 		.4byte	.LASF131
+ 812 05fe 07       		.byte	0x7
+ 813 05ff 49       		.byte	0x49
+ 814 0600 2A050000 		.4byte	0x52a
+ 815 0604 00       		.byte	0
+ 816 0605 06       		.uleb128 0x6
+ 817 0606 CB020000 		.4byte	.LASF132
+ 818 060a 07       		.byte	0x7
+ 819 060b 4C       		.byte	0x4c
+ 820 060c 12060000 		.4byte	0x612
+ 821 0610 02       		.byte	0x2
+ 822 0611 00       		.byte	0
+ 823 0612 0C       		.uleb128 0xc
+ 824 0613 E6050000 		.4byte	0x5e6
+ 825 0617 22060000 		.4byte	0x622
+ 826 061b 0D       		.uleb128 0xd
+ 827 061c 96000000 		.4byte	0x96
+ 828 0620 00       		.byte	0
+ 829 0621 00       		.byte	0
+ 830 0622 04       		.uleb128 0x4
+ 831 0623 58070000 		.4byte	.LASF133
+ 832 0627 07       		.byte	0x7
+ 833 0628 4E       		.byte	0x4e
+ 834 0629 F1050000 		.4byte	0x5f1
+ 835 062d 05       		.uleb128 0x5
+ 836 062e 04       		.byte	0x4
+ 837 062f 07       		.byte	0x7
+ 838 0630 90       		.byte	0x90
+ 839 0631 42060000 		.4byte	0x642
+ 840 0635 06       		.uleb128 0x6
+ 841 0636 70000000 		.4byte	.LASF134
+ 842 063a 07       		.byte	0x7
+ 843 063b 94       		.byte	0x94
+ 844 063c 42060000 		.4byte	0x642
+ 845 0640 00       		.byte	0
+ 846 0641 00       		.byte	0
+ 847 0642 0E       		.uleb128 0xe
+ 848 0643 04       		.byte	0x4
+ 849 0644 48060000 		.4byte	0x648
+ 850 0648 0F       		.uleb128 0xf
+ 851 0649 22060000 		.4byte	0x622
+ 852 064d 04       		.uleb128 0x4
+ 853 064e 3D070000 		.4byte	.LASF135
+ 854 0652 07       		.byte	0x7
+ 855 0653 9B       		.byte	0x9b
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 16
+
+
+ 856 0654 2D060000 		.4byte	0x62d
+ 857 0658 0C       		.uleb128 0xc
+ 858 0659 48060000 		.4byte	0x648
+ 859 065d 68060000 		.4byte	0x668
+ 860 0661 0D       		.uleb128 0xd
+ 861 0662 96000000 		.4byte	0x96
+ 862 0666 00       		.byte	0
+ 863 0667 00       		.byte	0
+ 864 0668 10       		.uleb128 0x10
+ 865 0669 4C040000 		.4byte	.LASF145
+ 866 066d 08       		.byte	0x8
+ 867 066e 1A       		.byte	0x1a
+ 868 066f 79060000 		.4byte	0x679
+ 869 0673 05       		.uleb128 0x5
+ 870 0674 03       		.byte	0x3
+ 871 0675 00000000 		.4byte	cy_ble_customs
+ 872 0679 0F       		.uleb128 0xf
+ 873 067a 58060000 		.4byte	0x658
+ 874 067e 11       		.uleb128 0x11
+ 875 067f 6B060000 		.4byte	.LASF136
+ 876 0683 03       		.byte	0x3
+ 877 0684 A7       		.byte	0xa7
+ 878 0685 89060000 		.4byte	0x689
+ 879 0689 0E       		.uleb128 0xe
+ 880 068a 04       		.byte	0x4
+ 881 068b 8F060000 		.4byte	0x68f
+ 882 068f 0F       		.uleb128 0xf
+ 883 0690 E1040000 		.4byte	0x4e1
+ 884 0694 12       		.uleb128 0x12
+ 885 0695 88080000 		.4byte	.LASF137
+ 886 0699 06       		.byte	0x6
+ 887 069a 2202     		.2byte	0x222
+ 888 069c 5B050000 		.4byte	0x55b
+ 889 06a0 0C       		.uleb128 0xc
+ 890 06a1 1E050000 		.4byte	0x51e
+ 891 06a5 B0060000 		.4byte	0x6b0
+ 892 06a9 0D       		.uleb128 0xd
+ 893 06aa 96000000 		.4byte	0x96
+ 894 06ae 00       		.byte	0
+ 895 06af 00       		.byte	0
+ 896 06b0 12       		.uleb128 0x12
+ 897 06b1 20090000 		.4byte	.LASF138
+ 898 06b5 06       		.byte	0x6
+ 899 06b6 2C02     		.2byte	0x22c
+ 900 06b8 A0060000 		.4byte	0x6a0
+ 901 06bc 0C       		.uleb128 0xc
+ 902 06bd A3050000 		.4byte	0x5a3
+ 903 06c1 CC060000 		.4byte	0x6cc
+ 904 06c5 0D       		.uleb128 0xd
+ 905 06c6 96000000 		.4byte	0x96
+ 906 06ca 00       		.byte	0
+ 907 06cb 00       		.byte	0
+ 908 06cc 12       		.uleb128 0x12
+ 909 06cd 3B040000 		.4byte	.LASF139
+ 910 06d1 06       		.byte	0x6
+ 911 06d2 2D02     		.2byte	0x22d
+ 912 06d4 BC060000 		.4byte	0x6bc
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 17
+
+
+ 913 06d8 12       		.uleb128 0x12
+ 914 06d9 5C080000 		.4byte	.LASF140
+ 915 06dd 06       		.byte	0x6
+ 916 06de 5202     		.2byte	0x252
+ 917 06e0 A4000000 		.4byte	0xa4
+ 918 06e4 13       		.uleb128 0x13
+ 919 06e5 8C050000 		.4byte	.LASF141
+ 920 06e9 08       		.byte	0x8
+ 921 06ea 3C       		.byte	0x3c
+ 922 06eb 4D060000 		.4byte	0x64d
+ 923 06ef 05       		.uleb128 0x5
+ 924 06f0 03       		.byte	0x3
+ 925 06f1 00000000 		.4byte	cy_ble_customConfig
+ 926 06f5 00       		.byte	0
+ 927              		.section	.debug_abbrev,"",%progbits
+ 928              	.Ldebug_abbrev0:
+ 929 0000 01       		.uleb128 0x1
+ 930 0001 11       		.uleb128 0x11
+ 931 0002 01       		.byte	0x1
+ 932 0003 25       		.uleb128 0x25
+ 933 0004 0E       		.uleb128 0xe
+ 934 0005 13       		.uleb128 0x13
+ 935 0006 0B       		.uleb128 0xb
+ 936 0007 03       		.uleb128 0x3
+ 937 0008 0E       		.uleb128 0xe
+ 938 0009 1B       		.uleb128 0x1b
+ 939 000a 0E       		.uleb128 0xe
+ 940 000b 10       		.uleb128 0x10
+ 941 000c 17       		.uleb128 0x17
+ 942 000d 00       		.byte	0
+ 943 000e 00       		.byte	0
+ 944 000f 02       		.uleb128 0x2
+ 945 0010 24       		.uleb128 0x24
+ 946 0011 00       		.byte	0
+ 947 0012 0B       		.uleb128 0xb
+ 948 0013 0B       		.uleb128 0xb
+ 949 0014 3E       		.uleb128 0x3e
+ 950 0015 0B       		.uleb128 0xb
+ 951 0016 03       		.uleb128 0x3
+ 952 0017 08       		.uleb128 0x8
+ 953 0018 00       		.byte	0
+ 954 0019 00       		.byte	0
+ 955 001a 03       		.uleb128 0x3
+ 956 001b 24       		.uleb128 0x24
+ 957 001c 00       		.byte	0
+ 958 001d 0B       		.uleb128 0xb
+ 959 001e 0B       		.uleb128 0xb
+ 960 001f 3E       		.uleb128 0x3e
+ 961 0020 0B       		.uleb128 0xb
+ 962 0021 03       		.uleb128 0x3
+ 963 0022 0E       		.uleb128 0xe
+ 964 0023 00       		.byte	0
+ 965 0024 00       		.byte	0
+ 966 0025 04       		.uleb128 0x4
+ 967 0026 16       		.uleb128 0x16
+ 968 0027 00       		.byte	0
+ 969 0028 03       		.uleb128 0x3
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 18
+
+
+ 970 0029 0E       		.uleb128 0xe
+ 971 002a 3A       		.uleb128 0x3a
+ 972 002b 0B       		.uleb128 0xb
+ 973 002c 3B       		.uleb128 0x3b
+ 974 002d 0B       		.uleb128 0xb
+ 975 002e 49       		.uleb128 0x49
+ 976 002f 13       		.uleb128 0x13
+ 977 0030 00       		.byte	0
+ 978 0031 00       		.byte	0
+ 979 0032 05       		.uleb128 0x5
+ 980 0033 13       		.uleb128 0x13
+ 981 0034 01       		.byte	0x1
+ 982 0035 0B       		.uleb128 0xb
+ 983 0036 0B       		.uleb128 0xb
+ 984 0037 3A       		.uleb128 0x3a
+ 985 0038 0B       		.uleb128 0xb
+ 986 0039 3B       		.uleb128 0x3b
+ 987 003a 0B       		.uleb128 0xb
+ 988 003b 01       		.uleb128 0x1
+ 989 003c 13       		.uleb128 0x13
+ 990 003d 00       		.byte	0
+ 991 003e 00       		.byte	0
+ 992 003f 06       		.uleb128 0x6
+ 993 0040 0D       		.uleb128 0xd
+ 994 0041 00       		.byte	0
+ 995 0042 03       		.uleb128 0x3
+ 996 0043 0E       		.uleb128 0xe
+ 997 0044 3A       		.uleb128 0x3a
+ 998 0045 0B       		.uleb128 0xb
+ 999 0046 3B       		.uleb128 0x3b
+ 1000 0047 0B       		.uleb128 0xb
+ 1001 0048 49       		.uleb128 0x49
+ 1002 0049 13       		.uleb128 0x13
+ 1003 004a 38       		.uleb128 0x38
+ 1004 004b 0B       		.uleb128 0xb
+ 1005 004c 00       		.byte	0
+ 1006 004d 00       		.byte	0
+ 1007 004e 07       		.uleb128 0x7
+ 1008 004f 13       		.uleb128 0x13
+ 1009 0050 01       		.byte	0x1
+ 1010 0051 0B       		.uleb128 0xb
+ 1011 0052 0B       		.uleb128 0xb
+ 1012 0053 3A       		.uleb128 0x3a
+ 1013 0054 0B       		.uleb128 0xb
+ 1014 0055 3B       		.uleb128 0x3b
+ 1015 0056 05       		.uleb128 0x5
+ 1016 0057 01       		.uleb128 0x1
+ 1017 0058 13       		.uleb128 0x13
+ 1018 0059 00       		.byte	0
+ 1019 005a 00       		.byte	0
+ 1020 005b 08       		.uleb128 0x8
+ 1021 005c 0D       		.uleb128 0xd
+ 1022 005d 00       		.byte	0
+ 1023 005e 03       		.uleb128 0x3
+ 1024 005f 0E       		.uleb128 0xe
+ 1025 0060 3A       		.uleb128 0x3a
+ 1026 0061 0B       		.uleb128 0xb
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 19
+
+
+ 1027 0062 3B       		.uleb128 0x3b
+ 1028 0063 05       		.uleb128 0x5
+ 1029 0064 49       		.uleb128 0x49
+ 1030 0065 13       		.uleb128 0x13
+ 1031 0066 38       		.uleb128 0x38
+ 1032 0067 0B       		.uleb128 0xb
+ 1033 0068 00       		.byte	0
+ 1034 0069 00       		.byte	0
+ 1035 006a 09       		.uleb128 0x9
+ 1036 006b 16       		.uleb128 0x16
+ 1037 006c 00       		.byte	0
+ 1038 006d 03       		.uleb128 0x3
+ 1039 006e 0E       		.uleb128 0xe
+ 1040 006f 3A       		.uleb128 0x3a
+ 1041 0070 0B       		.uleb128 0xb
+ 1042 0071 3B       		.uleb128 0x3b
+ 1043 0072 05       		.uleb128 0x5
+ 1044 0073 49       		.uleb128 0x49
+ 1045 0074 13       		.uleb128 0x13
+ 1046 0075 00       		.byte	0
+ 1047 0076 00       		.byte	0
+ 1048 0077 0A       		.uleb128 0xa
+ 1049 0078 04       		.uleb128 0x4
+ 1050 0079 01       		.byte	0x1
+ 1051 007a 0B       		.uleb128 0xb
+ 1052 007b 0B       		.uleb128 0xb
+ 1053 007c 49       		.uleb128 0x49
+ 1054 007d 13       		.uleb128 0x13
+ 1055 007e 3A       		.uleb128 0x3a
+ 1056 007f 0B       		.uleb128 0xb
+ 1057 0080 3B       		.uleb128 0x3b
+ 1058 0081 0B       		.uleb128 0xb
+ 1059 0082 01       		.uleb128 0x1
+ 1060 0083 13       		.uleb128 0x13
+ 1061 0084 00       		.byte	0
+ 1062 0085 00       		.byte	0
+ 1063 0086 0B       		.uleb128 0xb
+ 1064 0087 28       		.uleb128 0x28
+ 1065 0088 00       		.byte	0
+ 1066 0089 03       		.uleb128 0x3
+ 1067 008a 0E       		.uleb128 0xe
+ 1068 008b 1C       		.uleb128 0x1c
+ 1069 008c 0B       		.uleb128 0xb
+ 1070 008d 00       		.byte	0
+ 1071 008e 00       		.byte	0
+ 1072 008f 0C       		.uleb128 0xc
+ 1073 0090 01       		.uleb128 0x1
+ 1074 0091 01       		.byte	0x1
+ 1075 0092 49       		.uleb128 0x49
+ 1076 0093 13       		.uleb128 0x13
+ 1077 0094 01       		.uleb128 0x1
+ 1078 0095 13       		.uleb128 0x13
+ 1079 0096 00       		.byte	0
+ 1080 0097 00       		.byte	0
+ 1081 0098 0D       		.uleb128 0xd
+ 1082 0099 21       		.uleb128 0x21
+ 1083 009a 00       		.byte	0
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 20
+
+
+ 1084 009b 49       		.uleb128 0x49
+ 1085 009c 13       		.uleb128 0x13
+ 1086 009d 2F       		.uleb128 0x2f
+ 1087 009e 0B       		.uleb128 0xb
+ 1088 009f 00       		.byte	0
+ 1089 00a0 00       		.byte	0
+ 1090 00a1 0E       		.uleb128 0xe
+ 1091 00a2 0F       		.uleb128 0xf
+ 1092 00a3 00       		.byte	0
+ 1093 00a4 0B       		.uleb128 0xb
+ 1094 00a5 0B       		.uleb128 0xb
+ 1095 00a6 49       		.uleb128 0x49
+ 1096 00a7 13       		.uleb128 0x13
+ 1097 00a8 00       		.byte	0
+ 1098 00a9 00       		.byte	0
+ 1099 00aa 0F       		.uleb128 0xf
+ 1100 00ab 26       		.uleb128 0x26
+ 1101 00ac 00       		.byte	0
+ 1102 00ad 49       		.uleb128 0x49
+ 1103 00ae 13       		.uleb128 0x13
+ 1104 00af 00       		.byte	0
+ 1105 00b0 00       		.byte	0
+ 1106 00b1 10       		.uleb128 0x10
+ 1107 00b2 34       		.uleb128 0x34
+ 1108 00b3 00       		.byte	0
+ 1109 00b4 03       		.uleb128 0x3
+ 1110 00b5 0E       		.uleb128 0xe
+ 1111 00b6 3A       		.uleb128 0x3a
+ 1112 00b7 0B       		.uleb128 0xb
+ 1113 00b8 3B       		.uleb128 0x3b
+ 1114 00b9 0B       		.uleb128 0xb
+ 1115 00ba 49       		.uleb128 0x49
+ 1116 00bb 13       		.uleb128 0x13
+ 1117 00bc 02       		.uleb128 0x2
+ 1118 00bd 18       		.uleb128 0x18
+ 1119 00be 00       		.byte	0
+ 1120 00bf 00       		.byte	0
+ 1121 00c0 11       		.uleb128 0x11
+ 1122 00c1 34       		.uleb128 0x34
+ 1123 00c2 00       		.byte	0
+ 1124 00c3 03       		.uleb128 0x3
+ 1125 00c4 0E       		.uleb128 0xe
+ 1126 00c5 3A       		.uleb128 0x3a
+ 1127 00c6 0B       		.uleb128 0xb
+ 1128 00c7 3B       		.uleb128 0x3b
+ 1129 00c8 0B       		.uleb128 0xb
+ 1130 00c9 49       		.uleb128 0x49
+ 1131 00ca 13       		.uleb128 0x13
+ 1132 00cb 3F       		.uleb128 0x3f
+ 1133 00cc 19       		.uleb128 0x19
+ 1134 00cd 3C       		.uleb128 0x3c
+ 1135 00ce 19       		.uleb128 0x19
+ 1136 00cf 00       		.byte	0
+ 1137 00d0 00       		.byte	0
+ 1138 00d1 12       		.uleb128 0x12
+ 1139 00d2 34       		.uleb128 0x34
+ 1140 00d3 00       		.byte	0
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 21
+
+
+ 1141 00d4 03       		.uleb128 0x3
+ 1142 00d5 0E       		.uleb128 0xe
+ 1143 00d6 3A       		.uleb128 0x3a
+ 1144 00d7 0B       		.uleb128 0xb
+ 1145 00d8 3B       		.uleb128 0x3b
+ 1146 00d9 05       		.uleb128 0x5
+ 1147 00da 49       		.uleb128 0x49
+ 1148 00db 13       		.uleb128 0x13
+ 1149 00dc 3F       		.uleb128 0x3f
+ 1150 00dd 19       		.uleb128 0x19
+ 1151 00de 3C       		.uleb128 0x3c
+ 1152 00df 19       		.uleb128 0x19
+ 1153 00e0 00       		.byte	0
+ 1154 00e1 00       		.byte	0
+ 1155 00e2 13       		.uleb128 0x13
+ 1156 00e3 34       		.uleb128 0x34
+ 1157 00e4 00       		.byte	0
+ 1158 00e5 03       		.uleb128 0x3
+ 1159 00e6 0E       		.uleb128 0xe
+ 1160 00e7 3A       		.uleb128 0x3a
+ 1161 00e8 0B       		.uleb128 0xb
+ 1162 00e9 3B       		.uleb128 0x3b
+ 1163 00ea 0B       		.uleb128 0xb
+ 1164 00eb 49       		.uleb128 0x49
+ 1165 00ec 13       		.uleb128 0x13
+ 1166 00ed 3F       		.uleb128 0x3f
+ 1167 00ee 19       		.uleb128 0x19
+ 1168 00ef 02       		.uleb128 0x2
+ 1169 00f0 18       		.uleb128 0x18
+ 1170 00f1 00       		.byte	0
+ 1171 00f2 00       		.byte	0
+ 1172 00f3 00       		.byte	0
+ 1173              		.section	.debug_aranges,"",%progbits
+ 1174 0000 14000000 		.4byte	0x14
+ 1175 0004 0200     		.2byte	0x2
+ 1176 0006 00000000 		.4byte	.Ldebug_info0
+ 1177 000a 04       		.byte	0x4
+ 1178 000b 00       		.byte	0
+ 1179 000c 0000     		.2byte	0
+ 1180 000e 0000     		.2byte	0
+ 1181 0010 00000000 		.4byte	0
+ 1182 0014 00000000 		.4byte	0
+ 1183              		.section	.debug_line,"",%progbits
+ 1184              	.Ldebug_line0:
+ 1185 0000 08020000 		.section	.debug_str,"MS",%progbits,1
+ 1185      02000202 
+ 1185      00000201 
+ 1185      FB0E0D00 
+ 1185      01010101 
+ 1186              	.LASF55:
+ 1187 0000 70726F74 		.ascii	"protBusMasterMask\000"
+ 1187      4275734D 
+ 1187      61737465 
+ 1187      724D6173 
+ 1187      6B00
+ 1188              	.LASF65:
+ 1189 0012 666C6173 		.ascii	"flashCtlMainWs3Freq\000"
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 22
+
+
+ 1189      6843746C 
+ 1189      4D61696E 
+ 1189      57733346 
+ 1189      72657100 
+ 1190              	.LASF87:
+ 1191 0026 6770696F 		.ascii	"gpioPrtCfgInOffset\000"
+ 1191      50727443 
+ 1191      6667496E 
+ 1191      4F666673 
+ 1191      657400
+ 1192              	.LASF105:
+ 1193 0039 6970634C 		.ascii	"ipcLockStatusOffset\000"
+ 1193      6F636B53 
+ 1193      74617475 
+ 1193      734F6666 
+ 1193      73657400 
+ 1194              	.LASF31:
+ 1195 004d 63727970 		.ascii	"cryptoVersion\000"
+ 1195      746F5665 
+ 1195      7273696F 
+ 1195      6E00
+ 1196              	.LASF49:
+ 1197 005b 70657269 		.ascii	"periClockNr\000"
+ 1197      436C6F63 
+ 1197      6B4E7200 
+ 1198              	.LASF27:
+ 1199 0067 70617373 		.ascii	"passBase\000"
+ 1199      42617365 
+ 1199      00
+ 1200              	.LASF134:
+ 1201 0070 63757374 		.ascii	"customs\000"
+ 1201      6F6D7300 
+ 1202              	.LASF40:
+ 1203 0078 63707573 		.ascii	"cpussIpcIrqNr\000"
+ 1203      73497063 
+ 1203      4972714E 
+ 1203      7200
+ 1204              	.LASF5:
+ 1205 0086 5F5F7569 		.ascii	"__uint8_t\000"
+ 1205      6E74385F 
+ 1205      7400
+ 1206              	.LASF84:
+ 1207 0090 70657269 		.ascii	"periDiv24_5CtlOffset\000"
+ 1207      44697632 
+ 1207      345F3543 
+ 1207      746C4F66 
+ 1207      66736574 
+ 1208              	.LASF111:
+ 1209 00a5 63795F73 		.ascii	"cy_stc_ble_conn_handle_t\000"
+ 1209      74635F62 
+ 1209      6C655F63 
+ 1209      6F6E6E5F 
+ 1209      68616E64 
+ 1210              	.LASF131:
+ 1211 00be 63757374 		.ascii	"customServHandle\000"
+ 1211      6F6D5365 
+ 1211      72764861 
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 23
+
+
+ 1211      6E646C65 
+ 1211      00
+ 1212              	.LASF20:
+ 1213 00cf 63707573 		.ascii	"cpussBase\000"
+ 1213      73426173 
+ 1213      6500
+ 1214              	.LASF69:
+ 1215 00d9 64774368 		.ascii	"dwChCtlPrioPos\000"
+ 1215      43746C50 
+ 1215      72696F50 
+ 1215      6F7300
+ 1216              	.LASF13:
+ 1217 00e8 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1217      206C6F6E 
+ 1217      6720756E 
+ 1217      7369676E 
+ 1217      65642069 
+ 1218              	.LASF73:
+ 1219 00ff 70657269 		.ascii	"periTrCmdOffset\000"
+ 1219      5472436D 
+ 1219      644F6666 
+ 1219      73657400 
+ 1220              	.LASF97:
+ 1221 010f 63707573 		.ascii	"cpussSysTickCtlOffset\000"
+ 1221      73537973 
+ 1221      5469636B 
+ 1221      43746C4F 
+ 1221      66667365 
+ 1222              	.LASF58:
+ 1223 0125 666C6173 		.ascii	"flashPipeRequired\000"
+ 1223      68506970 
+ 1223      65526571 
+ 1223      75697265 
+ 1223      6400
+ 1224              	.LASF62:
+ 1225 0137 666C6173 		.ascii	"flashCtlMainWs0Freq\000"
+ 1225      6843746C 
+ 1225      4D61696E 
+ 1225      57733046 
+ 1225      72657100 
+ 1226              	.LASF17:
+ 1227 014b 696E7431 		.ascii	"int16_t\000"
+ 1227      365F7400 
+ 1228              	.LASF1:
+ 1229 0153 6C6F6E67 		.ascii	"long long int\000"
+ 1229      206C6F6E 
+ 1229      6720696E 
+ 1229      7400
+ 1230              	.LASF3:
+ 1231 0161 7369676E 		.ascii	"signed char\000"
+ 1231      65642063 
+ 1231      68617200 
+ 1232              	.LASF78:
+ 1233 016d 70657269 		.ascii	"periDivCmdTypeSelPos\000"
+ 1233      44697643 
+ 1233      6D645479 
+ 1233      70655365 
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 24
+
+
+ 1233      6C506F73 
+ 1234              	.LASF24:
+ 1235 0182 70726F74 		.ascii	"protBase\000"
+ 1235      42617365 
+ 1235      00
+ 1236              	.LASF36:
+ 1237 018b 69706356 		.ascii	"ipcVersion\000"
+ 1237      65727369 
+ 1237      6F6E00
+ 1238              	.LASF98:
+ 1239 0196 63707573 		.ascii	"cpussCm0NmiCtlOffset\000"
+ 1239      73436D30 
+ 1239      4E6D6943 
+ 1239      746C4F66 
+ 1239      66736574 
+ 1240              	.LASF116:
+ 1241 01ab 43595F42 		.ascii	"CY_BLE_ADV_STATE_STOP_INITIATED\000"
+ 1241      4C455F41 
+ 1241      44565F53 
+ 1241      54415445 
+ 1241      5F53544F 
+ 1242              	.LASF25:
+ 1243 01cb 6873696F 		.ascii	"hsiomBase\000"
+ 1243      6D426173 
+ 1243      6500
+ 1244              	.LASF10:
+ 1245 01d5 6C6F6E67 		.ascii	"long int\000"
+ 1245      20696E74 
+ 1245      00
+ 1246              	.LASF91:
+ 1247 01de 63707573 		.ascii	"cpussCm4ClockCtlOffset\000"
+ 1247      73436D34 
+ 1247      436C6F63 
+ 1247      6B43746C 
+ 1247      4F666673 
+ 1248              	.LASF56:
+ 1249 01f5 63727970 		.ascii	"cryptoMemSize\000"
+ 1249      746F4D65 
+ 1249      6D53697A 
+ 1249      6500
+ 1250              	.LASF117:
+ 1251 0203 63795F65 		.ascii	"cy_en_ble_adv_state_t\000"
+ 1251      6E5F626C 
+ 1251      655F6164 
+ 1251      765F7374 
+ 1251      6174655F 
+ 1252              	.LASF22:
+ 1253 0219 70657269 		.ascii	"periBase\000"
+ 1253      42617365 
+ 1253      00
+ 1254              	.LASF54:
+ 1255 0222 73797350 		.ascii	"sysPmSimoPresent\000"
+ 1255      6D53696D 
+ 1255      6F507265 
+ 1255      73656E74 
+ 1255      00
+ 1256              	.LASF44:
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 25
+
+
+ 1257 0233 63707573 		.ascii	"cpussFmIrq\000"
+ 1257      73466D49 
+ 1257      727100
+ 1258              	.LASF108:
+ 1259 023e 646F7562 		.ascii	"double\000"
+ 1259      6C6500
+ 1260              	.LASF83:
+ 1261 0245 70657269 		.ascii	"periDiv16_5CtlOffset\000"
+ 1261      44697631 
+ 1261      365F3543 
+ 1261      746C4F66 
+ 1261      66736574 
+ 1262              	.LASF47:
+ 1263 025a 73727373 		.ascii	"srssNumPll\000"
+ 1263      4E756D50 
+ 1263      6C6C00
+ 1264              	.LASF81:
+ 1265 0265 70657269 		.ascii	"periDiv8CtlOffset\000"
+ 1265      44697638 
+ 1265      43746C4F 
+ 1265      66667365 
+ 1265      7400
+ 1266              	.LASF122:
+ 1267 0277 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_INCL_DISCOVERING\000"
+ 1267      4C455F43 
+ 1267      4F4E4E5F 
+ 1267      53544154 
+ 1267      455F434C 
+ 1268              	.LASF88:
+ 1269 02a1 6770696F 		.ascii	"gpioPrtCfgOutOffset\000"
+ 1269      50727443 
+ 1269      66674F75 
+ 1269      744F6666 
+ 1269      73657400 
+ 1270              	.LASF21:
+ 1271 02b5 666C6173 		.ascii	"flashcBase\000"
+ 1271      68634261 
+ 1271      736500
+ 1272              	.LASF11:
+ 1273 02c0 5F5F7569 		.ascii	"__uint32_t\000"
+ 1273      6E743332 
+ 1273      5F7400
+ 1274              	.LASF132:
+ 1275 02cb 63757374 		.ascii	"customServInfo\000"
+ 1275      6F6D5365 
+ 1275      7276496E 
+ 1275      666F00
+ 1276              	.LASF51:
+ 1277 02da 70617373 		.ascii	"passSarChannels\000"
+ 1277      53617243 
+ 1277      68616E6E 
+ 1277      656C7300 
+ 1278              	.LASF6:
+ 1279 02ea 5F5F696E 		.ascii	"__int16_t\000"
+ 1279      7431365F 
+ 1279      7400
+ 1280              	.LASF53:
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 26
+
+
+ 1281 02f4 75646250 		.ascii	"udbPresent\000"
+ 1281      72657365 
+ 1281      6E7400
+ 1282              	.LASF94:
+ 1283 02ff 63707573 		.ascii	"cpussCm4PwrCtlOffset\000"
+ 1283      73436D34 
+ 1283      50777243 
+ 1283      746C4F66 
+ 1283      66736574 
+ 1284              	.LASF121:
+ 1285 0314 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_SRVC_DISCOVERING\000"
+ 1285      4C455F43 
+ 1285      4F4E4E5F 
+ 1285      53544154 
+ 1285      455F434C 
+ 1286              	.LASF89:
+ 1287 033e 6770696F 		.ascii	"gpioPrtCfgSioOffset\000"
+ 1287      50727443 
+ 1287      66675369 
+ 1287      6F4F6666 
+ 1287      73657400 
+ 1288              	.LASF41:
+ 1289 0352 63707573 		.ascii	"cpussDwChNr\000"
+ 1289      73447743 
+ 1289      684E7200 
+ 1290              	.LASF0:
+ 1291 035e 756E7369 		.ascii	"unsigned int\000"
+ 1291      676E6564 
+ 1291      20696E74 
+ 1291      00
+ 1292              	.LASF120:
+ 1293 036b 43595F42 		.ascii	"CY_BLE_CONN_STATE_CONNECTED\000"
+ 1293      4C455F43 
+ 1293      4F4E4E5F 
+ 1293      53544154 
+ 1293      455F434F 
+ 1294              	.LASF124:
+ 1295 0387 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_DESCR_DISCOVERING\000"
+ 1295      4C455F43 
+ 1295      4F4E4E5F 
+ 1295      53544154 
+ 1295      455F434C 
+ 1296              	.LASF18:
+ 1297 03b2 75696E74 		.ascii	"uint16_t\000"
+ 1297      31365F74 
+ 1297      00
+ 1298              	.LASF74:
+ 1299 03bb 70657269 		.ascii	"periTrCmdGrSelMsk\000"
+ 1299      5472436D 
+ 1299      64477253 
+ 1299      656C4D73 
+ 1299      6B00
+ 1300              	.LASF12:
+ 1301 03cd 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1301      20756E73 
+ 1301      69676E65 
+ 1301      6420696E 
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 27
+
+
+ 1301      7400
+ 1302              	.LASF39:
+ 1303 03df 63707573 		.ascii	"cpussIpcNr\000"
+ 1303      73497063 
+ 1303      4E7200
+ 1304              	.LASF26:
+ 1305 03ea 6770696F 		.ascii	"gpioBase\000"
+ 1305      42617365 
+ 1305      00
+ 1306              	.LASF143:
+ 1307 03f3 47656E65 		.ascii	"Generated_Source\\PSoC6\\BLE_custom_config.c\000"
+ 1307      72617465 
+ 1307      645F536F 
+ 1307      75726365 
+ 1307      5C50536F 
+ 1308              	.LASF75:
+ 1309 041e 70657269 		.ascii	"periTrGrOffset\000"
+ 1309      54724772 
+ 1309      4F666673 
+ 1309      657400
+ 1310              	.LASF102:
+ 1311 042d 63707573 		.ascii	"cpussRam1Ctl0\000"
+ 1311      7352616D 
+ 1311      3143746C 
+ 1311      3000
+ 1312              	.LASF139:
+ 1313 043b 63795F62 		.ascii	"cy_ble_connState\000"
+ 1313      6C655F63 
+ 1313      6F6E6E53 
+ 1313      74617465 
+ 1313      00
+ 1314              	.LASF145:
+ 1315 044c 63795F62 		.ascii	"cy_ble_customs\000"
+ 1315      6C655F63 
+ 1315      7573746F 
+ 1315      6D7300
+ 1316              	.LASF76:
+ 1317 045b 70657269 		.ascii	"periTrGrSize\000"
+ 1317      54724772 
+ 1317      53697A65 
+ 1317      00
+ 1318              	.LASF34:
+ 1319 0468 6770696F 		.ascii	"gpioVersion\000"
+ 1319      56657273 
+ 1319      696F6E00 
+ 1320              	.LASF106:
+ 1321 0474 63795F73 		.ascii	"cy_stc_device_t\000"
+ 1321      74635F64 
+ 1321      65766963 
+ 1321      655F7400 
+ 1322              	.LASF52:
+ 1323 0484 65704D6F 		.ascii	"epMonitorNr\000"
+ 1323      6E69746F 
+ 1323      724E7200 
+ 1324              	.LASF99:
+ 1325 0490 63707573 		.ascii	"cpussCm4NmiCtlOffset\000"
+ 1325      73436D34 
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 28
+
+
+ 1325      4E6D6943 
+ 1325      746C4F66 
+ 1325      66736574 
+ 1326              	.LASF95:
+ 1327 04a5 63707573 		.ascii	"cpussTrimRamCtlOffset\000"
+ 1327      73547269 
+ 1327      6D52616D 
+ 1327      43746C4F 
+ 1327      66667365 
+ 1328              	.LASF90:
+ 1329 04bb 63707573 		.ascii	"cpussCm0ClockCtlOffset\000"
+ 1329      73436D30 
+ 1329      436C6F63 
+ 1329      6B43746C 
+ 1329      4F666673 
+ 1330              	.LASF110:
+ 1331 04d2 61747449 		.ascii	"attId\000"
+ 1331      6400
+ 1332              	.LASF30:
+ 1333 04d8 63707573 		.ascii	"cpussVersion\000"
+ 1333      73566572 
+ 1333      73696F6E 
+ 1333      00
+ 1334              	.LASF112:
+ 1335 04e5 63795F62 		.ascii	"cy_ble_gatt_db_attr_handle_t\000"
+ 1335      6C655F67 
+ 1335      6174745F 
+ 1335      64625F61 
+ 1335      7474725F 
+ 1336              	.LASF37:
+ 1337 0502 70657269 		.ascii	"periVersion\000"
+ 1337      56657273 
+ 1337      696F6E00 
+ 1338              	.LASF93:
+ 1339 050e 63707573 		.ascii	"cpussCm0StatusOffset\000"
+ 1339      73436D30 
+ 1339      53746174 
+ 1339      75734F66 
+ 1339      66736574 
+ 1340              	.LASF14:
+ 1341 0523 73697A65 		.ascii	"sizetype\000"
+ 1341      74797065 
+ 1341      00
+ 1342              	.LASF67:
+ 1343 052c 64774368 		.ascii	"dwChOffset\000"
+ 1343      4F666673 
+ 1343      657400
+ 1344              	.LASF42:
+ 1345 0537 63707573 		.ascii	"cpussFlashPaSize\000"
+ 1345      73466C61 
+ 1345      73685061 
+ 1345      53697A65 
+ 1345      00
+ 1346              	.LASF114:
+ 1347 0548 43595F42 		.ascii	"CY_BLE_ADV_STATE_ADV_INITIATED\000"
+ 1347      4C455F41 
+ 1347      44565F53 
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 29
+
+
+ 1347      54415445 
+ 1347      5F414456 
+ 1348              	.LASF80:
+ 1349 0567 70657269 		.ascii	"periDivCmdPaTypeSelPos\000"
+ 1349      44697643 
+ 1349      6D645061 
+ 1349      54797065 
+ 1349      53656C50 
+ 1350              	.LASF103:
+ 1351 057e 63707573 		.ascii	"cpussRam2Ctl0\000"
+ 1351      7352616D 
+ 1351      3243746C 
+ 1351      3000
+ 1352              	.LASF141:
+ 1353 058c 63795F62 		.ascii	"cy_ble_customConfig\000"
+ 1353      6C655F63 
+ 1353      7573746F 
+ 1353      6D436F6E 
+ 1353      66696700 
+ 1354              	.LASF71:
+ 1355 05a0 64775374 		.ascii	"dwStatusChIdxPos\000"
+ 1355      61747573 
+ 1355      43684964 
+ 1355      78506F73 
+ 1355      00
+ 1356              	.LASF144:
+ 1357 05b1 433A5C55 		.ascii	"C:\\Users\\efabi\\Documents\\PSoC Creator\\Accel.cy"
+ 1357      73657273 
+ 1357      5C656661 
+ 1357      62695C44 
+ 1357      6F63756D 
+ 1358 05df 64736E00 		.ascii	"dsn\000"
+ 1359              	.LASF126:
+ 1360 05e3 63795F65 		.ascii	"cy_en_ble_conn_state_t\000"
+ 1360      6E5F626C 
+ 1360      655F636F 
+ 1360      6E6E5F73 
+ 1360      74617465 
+ 1361              	.LASF33:
+ 1362 05fa 666C6173 		.ascii	"flashcVersion\000"
+ 1362      68635665 
+ 1362      7273696F 
+ 1362      6E00
+ 1363              	.LASF29:
+ 1364 0608 63727970 		.ascii	"cryptoBase\000"
+ 1364      746F4261 
+ 1364      736500
+ 1365              	.LASF50:
+ 1366 0613 736D6966 		.ascii	"smifDeviceNr\000"
+ 1366      44657669 
+ 1366      63654E72 
+ 1366      00
+ 1367              	.LASF59:
+ 1368 0620 666C6173 		.ascii	"flashWriteDelay\000"
+ 1368      68577269 
+ 1368      74654465 
+ 1368      6C617900 
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 30
+
+
+ 1369              	.LASF125:
+ 1370 0630 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_DISCOVERED\000"
+ 1370      4C455F43 
+ 1370      4F4E4E5F 
+ 1370      53544154 
+ 1370      455F434C 
+ 1371              	.LASF107:
+ 1372 0654 666C6F61 		.ascii	"float\000"
+ 1372      7400
+ 1373              	.LASF72:
+ 1374 065a 64775374 		.ascii	"dwStatusChIdxMsk\000"
+ 1374      61747573 
+ 1374      43684964 
+ 1374      784D736B 
+ 1374      00
+ 1375              	.LASF136:
+ 1376 066b 63795F64 		.ascii	"cy_device\000"
+ 1376      65766963 
+ 1376      6500
+ 1377              	.LASF100:
+ 1378 0675 63707573 		.ascii	"cpussRomCtl\000"
+ 1378      73526F6D 
+ 1378      43746C00 
+ 1379              	.LASF70:
+ 1380 0681 64774368 		.ascii	"dwChCtlPreemptablePos\000"
+ 1380      43746C50 
+ 1380      7265656D 
+ 1380      70746162 
+ 1380      6C65506F 
+ 1381              	.LASF23:
+ 1382 0697 75646242 		.ascii	"udbBase\000"
+ 1382      61736500 
+ 1383              	.LASF123:
+ 1384 069f 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_CHAR_DISCOVERING\000"
+ 1384      4C455F43 
+ 1384      4F4E4E5F 
+ 1384      53544154 
+ 1384      455F434C 
+ 1385              	.LASF127:
+ 1386 06c9 5F426F6F 		.ascii	"_Bool\000"
+ 1386      6C00
+ 1387              	.LASF4:
+ 1388 06cf 756E7369 		.ascii	"unsigned char\000"
+ 1388      676E6564 
+ 1388      20636861 
+ 1388      7200
+ 1389              	.LASF66:
+ 1390 06dd 666C6173 		.ascii	"flashCtlMainWs4Freq\000"
+ 1390      6843746C 
+ 1390      4D61696E 
+ 1390      57733446 
+ 1390      72657100 
+ 1391              	.LASF7:
+ 1392 06f1 73686F72 		.ascii	"short int\000"
+ 1392      7420696E 
+ 1392      7400
+ 1393              	.LASF130:
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 31
+
+
+ 1394 06fb 63795F73 		.ascii	"cy_stc_ble_customs_info_t\000"
+ 1394      74635F62 
+ 1394      6C655F63 
+ 1394      7573746F 
+ 1394      6D735F69 
+ 1395              	.LASF77:
+ 1396 0715 70657269 		.ascii	"periDivCmdDivSelMsk\000"
+ 1396      44697643 
+ 1396      6D644469 
+ 1396      7653656C 
+ 1396      4D736B00 
+ 1397              	.LASF64:
+ 1398 0729 666C6173 		.ascii	"flashCtlMainWs2Freq\000"
+ 1398      6843746C 
+ 1398      4D61696E 
+ 1398      57733246 
+ 1398      72657100 
+ 1399              	.LASF135:
+ 1400 073d 63795F73 		.ascii	"cy_stc_ble_custom_config_t\000"
+ 1400      74635F62 
+ 1400      6C655F63 
+ 1400      7573746F 
+ 1400      6D5F636F 
+ 1401              	.LASF133:
+ 1402 0758 63795F73 		.ascii	"cy_stc_ble_customs_t\000"
+ 1402      74635F62 
+ 1402      6C655F63 
+ 1402      7573746F 
+ 1402      6D735F74 
+ 1403              	.LASF48:
+ 1404 076d 73727373 		.ascii	"srssNumHfroot\000"
+ 1404      4E756D48 
+ 1404      66726F6F 
+ 1404      7400
+ 1405              	.LASF61:
+ 1406 077b 666C6173 		.ascii	"flashEraseDelay\000"
+ 1406      68457261 
+ 1406      73654465 
+ 1406      6C617900 
+ 1407              	.LASF19:
+ 1408 078b 75696E74 		.ascii	"uint32_t\000"
+ 1408      33325F74 
+ 1408      00
+ 1409              	.LASF142:
+ 1410 0794 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1410      43313120 
+ 1410      352E342E 
+ 1410      31203230 
+ 1410      31363036 
+ 1411 07c7 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
+ 1411      20726576 
+ 1411      6973696F 
+ 1411      6E203233 
+ 1411      37373135 
+ 1412 07fa 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
+ 1412      67202D66 
+ 1412      66756E63 
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 32
+
+
+ 1412      74696F6E 
+ 1412      2D736563 
+ 1413              	.LASF2:
+ 1414 0826 6C6F6E67 		.ascii	"long double\000"
+ 1414      20646F75 
+ 1414      626C6500 
+ 1415              	.LASF15:
+ 1416 0832 63686172 		.ascii	"char\000"
+ 1416      00
+ 1417              	.LASF38:
+ 1418 0837 70726F74 		.ascii	"protVersion\000"
+ 1418      56657273 
+ 1418      696F6E00 
+ 1419              	.LASF101:
+ 1420 0843 63707573 		.ascii	"cpussRam0Ctl0\000"
+ 1420      7352616D 
+ 1420      3043746C 
+ 1420      3000
+ 1421              	.LASF8:
+ 1422 0851 5F5F7569 		.ascii	"__uint16_t\000"
+ 1422      6E743136 
+ 1422      5F7400
+ 1423              	.LASF140:
+ 1424 085c 63795F62 		.ascii	"cy_ble_pendingFlashWrite\000"
+ 1424      6C655F70 
+ 1424      656E6469 
+ 1424      6E67466C 
+ 1424      61736857 
+ 1425              	.LASF82:
+ 1426 0875 70657269 		.ascii	"periDiv16CtlOffset\000"
+ 1426      44697631 
+ 1426      3643746C 
+ 1426      4F666673 
+ 1426      657400
+ 1427              	.LASF137:
+ 1428 0888 63795F62 		.ascii	"cy_ble_advState\000"
+ 1428      6C655F61 
+ 1428      64765374 
+ 1428      61746500 
+ 1429              	.LASF35:
+ 1430 0898 6873696F 		.ascii	"hsiomVersion\000"
+ 1430      6D566572 
+ 1430      73696F6E 
+ 1430      00
+ 1431              	.LASF63:
+ 1432 08a5 666C6173 		.ascii	"flashCtlMainWs1Freq\000"
+ 1432      6843746C 
+ 1432      4D61696E 
+ 1432      57733146 
+ 1432      72657100 
+ 1433              	.LASF9:
+ 1434 08b9 73686F72 		.ascii	"short unsigned int\000"
+ 1434      7420756E 
+ 1434      7369676E 
+ 1434      65642069 
+ 1434      6E7400
+ 1435              	.LASF68:
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 33
+
+
+ 1436 08cc 64774368 		.ascii	"dwChSize\000"
+ 1436      53697A65 
+ 1436      00
+ 1437              	.LASF104:
+ 1438 08d5 69706353 		.ascii	"ipcStructSize\000"
+ 1438      74727563 
+ 1438      7453697A 
+ 1438      6500
+ 1439              	.LASF43:
+ 1440 08e3 63707573 		.ascii	"cpussIpc0Irq\000"
+ 1440      73497063 
+ 1440      30497271 
+ 1440      00
+ 1441              	.LASF86:
+ 1442 08f0 6770696F 		.ascii	"gpioPrtCfgOffset\000"
+ 1442      50727443 
+ 1442      66674F66 
+ 1442      66736574 
+ 1442      00
+ 1443              	.LASF118:
+ 1444 0901 43595F42 		.ascii	"CY_BLE_CONN_STATE_DISCONNECTED\000"
+ 1444      4C455F43 
+ 1444      4F4E4E5F 
+ 1444      53544154 
+ 1444      455F4449 
+ 1445              	.LASF138:
+ 1446 0920 63795F62 		.ascii	"cy_ble_connHandle\000"
+ 1446      6C655F63 
+ 1446      6F6E6E48 
+ 1446      616E646C 
+ 1446      6500
+ 1447              	.LASF45:
+ 1448 0932 63707573 		.ascii	"cpussNotConnectedIrq\000"
+ 1448      734E6F74 
+ 1448      436F6E6E 
+ 1448      65637465 
+ 1448      64497271 
+ 1449              	.LASF115:
+ 1450 0947 43595F42 		.ascii	"CY_BLE_ADV_STATE_ADVERTISING\000"
+ 1450      4C455F41 
+ 1450      44565F53 
+ 1450      54415445 
+ 1450      5F414456 
+ 1451              	.LASF113:
+ 1452 0964 43595F42 		.ascii	"CY_BLE_ADV_STATE_STOPPED\000"
+ 1452      4C455F41 
+ 1452      44565F53 
+ 1452      54415445 
+ 1452      5F53544F 
+ 1453              	.LASF16:
+ 1454 097d 75696E74 		.ascii	"uint8_t\000"
+ 1454      385F7400 
+ 1455              	.LASF92:
+ 1456 0985 63707573 		.ascii	"cpussCm4StatusOffset\000"
+ 1456      73436D34 
+ 1456      53746174 
+ 1456      75734F66 
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 34
+
+
+ 1456      66736574 
+ 1457              	.LASF85:
+ 1458 099a 6770696F 		.ascii	"gpioPrtIntrCfgOffset\000"
+ 1458      50727449 
+ 1458      6E747243 
+ 1458      66674F66 
+ 1458      66736574 
+ 1459              	.LASF96:
+ 1460 09af 63707573 		.ascii	"cpussTrimRomCtlOffset\000"
+ 1460      73547269 
+ 1460      6D526F6D 
+ 1460      43746C4F 
+ 1460      66667365 
+ 1461              	.LASF109:
+ 1462 09c5 62644861 		.ascii	"bdHandle\000"
+ 1462      6E646C65 
+ 1462      00
+ 1463              	.LASF46:
+ 1464 09ce 73727373 		.ascii	"srssNumClkpath\000"
+ 1464      4E756D43 
+ 1464      6C6B7061 
+ 1464      746800
+ 1465              	.LASF32:
+ 1466 09dd 64775665 		.ascii	"dwVersion\000"
+ 1466      7273696F 
+ 1466      6E00
+ 1467              	.LASF28:
+ 1468 09e7 69706342 		.ascii	"ipcBase\000"
+ 1468      61736500 
+ 1469              	.LASF79:
+ 1470 09ef 70657269 		.ascii	"periDivCmdPaDivSelPos\000"
+ 1470      44697643 
+ 1470      6D645061 
+ 1470      44697653 
+ 1470      656C506F 
+ 1471              	.LASF60:
+ 1472 0a05 666C6173 		.ascii	"flashProgramDelay\000"
+ 1472      6850726F 
+ 1472      6772616D 
+ 1472      44656C61 
+ 1472      7900
+ 1473              	.LASF128:
+ 1474 0a17 63757374 		.ascii	"customServCharHandle\000"
+ 1474      6F6D5365 
+ 1474      72764368 
+ 1474      61724861 
+ 1474      6E646C65 
+ 1475              	.LASF119:
+ 1476 0a2c 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_DISCONNECTED_DISCOVERED\000"
+ 1476      4C455F43 
+ 1476      4F4E4E5F 
+ 1476      53544154 
+ 1476      455F434C 
+ 1477              	.LASF57:
+ 1478 0a5d 666C6173 		.ascii	"flashRwwRequired\000"
+ 1478      68527777 
+ 1478      52657175 
+ARM GAS  C:\Users\efabi\AppData\Local\Temp\ccdoiLJC.s 			page 35
+
+
+ 1478      69726564 
+ 1478      00
+ 1479              	.LASF129:
+ 1480 0a6e 63757374 		.ascii	"customServCharDesc\000"
+ 1480      6F6D5365 
+ 1480      72764368 
+ 1480      61724465 
+ 1480      736300
+ 1481              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
